@@ -1,7 +1,7 @@
 
 {
-  "name": "Spanischer Verbtrainer",
-  "short_name": "Spanisch",
+  "name": "Deutscher Verbtrainer",
+  "short_name": "Deutsch",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f4f6f8",
