@@ -1,1 +1,1023 @@
-
+[
+  {
+    "word": "Haus",
+    "translation": "casa",
+    "type": "noun",
+    "categories": [
+      "wohnen"
+    ],
+    "article": "das",
+    "plural": "Häuser",
+    "examples": [
+      {
+        "sentence": "Das Haus ist groß.",
+        "translation": "La casa es grande."
+      },
+      {
+        "sentence": "Ich bin zu Hause.",
+        "translation": "Estoy en casa."
+      }
+    ]
+  },
+  {
+    "word": "Familie",
+    "translation": "familia",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Familien",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Familie.",
+        "translation": "La palabra es familia."
+      },
+      {
+        "sentence": "Ich kenne Familie.",
+        "translation": "Conozco familia."
+      }
+    ]
+  },
+  {
+    "word": "Freund",
+    "translation": "amigo",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "der",
+    "plural": "Freunde",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Freund.",
+        "translation": "La palabra es amigo."
+      },
+      {
+        "sentence": "Ich kenne Freund.",
+        "translation": "Conozco amigo."
+      }
+    ]
+  },
+  {
+    "word": "Freundin",
+    "translation": "amiga",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Freundinnen",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Freundin.",
+        "translation": "La palabra es amiga."
+      },
+      {
+        "sentence": "Ich kenne Freundin.",
+        "translation": "Conozco amiga."
+      }
+    ]
+  },
+  {
+    "word": "Stadt",
+    "translation": "ciudad",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Städte",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Stadt.",
+        "translation": "La palabra es ciudad."
+      },
+      {
+        "sentence": "Ich kenne Stadt.",
+        "translation": "Conozco ciudad."
+      }
+    ]
+  },
+  {
+    "word": "Auto",
+    "translation": "coche",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "das",
+    "plural": "Autos",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Auto.",
+        "translation": "La palabra es coche."
+      },
+      {
+        "sentence": "Ich kenne Auto.",
+        "translation": "Conozco coche."
+      }
+    ]
+  },
+  {
+    "word": "Arbeit",
+    "translation": "trabajo",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Arbeiten",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Arbeit.",
+        "translation": "La palabra es trabajo."
+      },
+      {
+        "sentence": "Ich kenne Arbeit.",
+        "translation": "Conozco trabajo."
+      }
+    ]
+  },
+  {
+    "word": "Zeit",
+    "translation": "tiempo",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Zeiten",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Zeit.",
+        "translation": "La palabra es tiempo."
+      },
+      {
+        "sentence": "Ich kenne Zeit.",
+        "translation": "Conozco tiempo."
+      }
+    ]
+  },
+  {
+    "word": "Wasser",
+    "translation": "agua",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "das",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Wasser.",
+        "translation": "La palabra es agua."
+      },
+      {
+        "sentence": "Ich kenne Wasser.",
+        "translation": "Conozco agua."
+      }
+    ]
+  },
+  {
+    "word": "Brot",
+    "translation": "pan",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "das",
+    "plural": "Brote",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Brot.",
+        "translation": "La palabra es pan."
+      },
+      {
+        "sentence": "Ich kenne Brot.",
+        "translation": "Conozco pan."
+      }
+    ]
+  },
+  {
+    "word": "Kind",
+    "translation": "niño",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "das",
+    "plural": "Kinder",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Kind.",
+        "translation": "La palabra es niño."
+      },
+      {
+        "sentence": "Ich kenne Kind.",
+        "translation": "Conozco niño."
+      }
+    ]
+  },
+  {
+    "word": "Mann",
+    "translation": "hombre",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "der",
+    "plural": "Männer",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Mann.",
+        "translation": "La palabra es hombre."
+      },
+      {
+        "sentence": "Ich kenne Mann.",
+        "translation": "Conozco hombre."
+      }
+    ]
+  },
+  {
+    "word": "Frau",
+    "translation": "mujer",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Frauen",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Frau.",
+        "translation": "La palabra es mujer."
+      },
+      {
+        "sentence": "Ich kenne Frau.",
+        "translation": "Conozco mujer."
+      }
+    ]
+  },
+  {
+    "word": "Tag",
+    "translation": "día",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "der",
+    "plural": "Tage",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Tag.",
+        "translation": "La palabra es día."
+      },
+      {
+        "sentence": "Ich kenne Tag.",
+        "translation": "Conozco día."
+      }
+    ]
+  },
+  {
+    "word": "Jahr",
+    "translation": "año",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "das",
+    "plural": "Jahre",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Jahr.",
+        "translation": "La palabra es año."
+      },
+      {
+        "sentence": "Ich kenne Jahr.",
+        "translation": "Conozco año."
+      }
+    ]
+  },
+  {
+    "word": "Wohnung",
+    "translation": "piso",
+    "type": "noun",
+    "categories": [
+      "alltag"
+    ],
+    "article": "die",
+    "plural": "Wohnungen",
+    "examples": [
+      {
+        "sentence": "Das Wort ist Wohnung.",
+        "translation": "La palabra es piso."
+      },
+      {
+        "sentence": "Ich kenne Wohnung.",
+        "translation": "Conozco piso."
+      }
+    ]
+  },
+  {
+    "word": "sein",
+    "translation": "ser/estar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir sein.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "haben",
+    "translation": "tener",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich habe.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir haben.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "gehen",
+    "translation": "ir",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich gehen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir gehen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "kommen",
+    "translation": "venir",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich kommen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir kommen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "lernen",
+    "translation": "aprender",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich lernen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir lernen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "arbeiten",
+    "translation": "trabajar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich arbeiten.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir arbeiten.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "sprechen",
+    "translation": "hablar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich sprechen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir sprechen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "essen",
+    "translation": "comer",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich essen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir essen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "trinken",
+    "translation": "beber",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich trinken.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir trinken.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "wohnen",
+    "translation": "vivir",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich wohnen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir wohnen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "sehen",
+    "translation": "ver",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich sehen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir sehen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "geben",
+    "translation": "dar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich geben.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir geben.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "nehmen",
+    "translation": "tomar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich nehmen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nehmen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "finden",
+    "translation": "encontrar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich finden.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir finden.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "brauchen",
+    "translation": "necesitar",
+    "type": "verb",
+    "categories": [
+      "verben"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich brauchen.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir brauchen.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "gut",
+    "translation": "bueno",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist gut.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich gut.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "schlecht",
+    "translation": "malo",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist schlecht.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich schlecht.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "groß",
+    "translation": "grande",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist groß.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich groß.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "klein",
+    "translation": "pequeño",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist klein.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich klein.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "neu",
+    "translation": "nuevo",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist neu.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich neu.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "alt",
+    "translation": "viejo",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist alt.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich alt.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "schön",
+    "translation": "bonito",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist schön.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich schön.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "wichtig",
+    "translation": "importante",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist wichtig.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich wichtig.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "schnell",
+    "translation": "rápido",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist schnell.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich schnell.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "langsam",
+    "translation": "lento",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist langsam.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich langsam.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "müde",
+    "translation": "cansado",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist müde.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich müde.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "glücklich",
+    "translation": "feliz",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist glücklich.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich glücklich.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "krank",
+    "translation": "enfermo",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist krank.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich krank.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "gesund",
+    "translation": "saludable",
+    "type": "adjective",
+    "categories": [
+      "beschreibung"
+    ],
+    "examples": [
+      {
+        "sentence": "Das ist gesund.",
+        "translation": "Eso es así."
+      },
+      {
+        "sentence": "Heute bin ich gesund.",
+        "translation": "Hoy estoy así."
+      }
+    ]
+  },
+  {
+    "word": "hier",
+    "translation": "aquí",
+    "type": "adverb",
+    "categories": [
+      "ort"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin hier.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen hier.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "dort",
+    "translation": "allí",
+    "type": "adverb",
+    "categories": [
+      "ort"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin dort.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen dort.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "immer",
+    "translation": "siempre",
+    "type": "adverb",
+    "categories": [
+      "häufigkeit"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin immer.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen immer.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "manchmal",
+    "translation": "a veces",
+    "type": "adverb",
+    "categories": [
+      "häufigkeit"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin manchmal.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen manchmal.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "nie",
+    "translation": "nunca",
+    "type": "adverb",
+    "categories": [
+      "häufigkeit"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin nie.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen nie.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "heute",
+    "translation": "hoy",
+    "type": "adverb",
+    "categories": [
+      "zeit"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin heute.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen heute.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "jetzt",
+    "translation": "ahora",
+    "type": "adverb",
+    "categories": [
+      "zeit"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin jetzt.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen jetzt.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "mit",
+    "translation": "con",
+    "type": "adverb",
+    "categories": [
+      "funktion"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin mit.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen mit.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "ohne",
+    "translation": "sin",
+    "type": "adverb",
+    "categories": [
+      "funktion"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin ohne.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen ohne.",
+        "translation": "Ejemplo."
+      }
+    ]
+  },
+  {
+    "word": "in",
+    "translation": "en",
+    "type": "adverb",
+    "categories": [
+      "funktion"
+    ],
+    "examples": [
+      {
+        "sentence": "Ich bin in.",
+        "translation": "Ejemplo."
+      },
+      {
+        "sentence": "Wir nutzen in.",
+        "translation": "Ejemplo."
+      }
+    ]
+  }
+]
