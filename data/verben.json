@@ -1,1 +1,2522 @@
-
+[
+  {
+    "verb": "sein",
+    "translation": "ser / estar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "bin"
+        },
+        {
+          "person": "du",
+          "solution": "bist"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "ist"
+        },
+        {
+          "person": "wir",
+          "solution": "sind"
+        },
+        {
+          "person": "ihr",
+          "solution": "seid"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "sind"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "war"
+        },
+        {
+          "person": "du",
+          "solution": "warst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "war"
+        },
+        {
+          "person": "wir",
+          "solution": "waren"
+        },
+        {
+          "person": "ihr",
+          "solution": "wart"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "waren"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde sein"
+        },
+        {
+          "person": "du",
+          "solution": "wirst sein"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird sein"
+        },
+        {
+          "person": "wir",
+          "solution": "werden sein"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet sein"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden sein"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "haben",
+    "translation": "tener",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "habe"
+        },
+        {
+          "person": "du",
+          "solution": "hast"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "hat"
+        },
+        {
+          "person": "wir",
+          "solution": "haben"
+        },
+        {
+          "person": "ihr",
+          "solution": "habt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "haben"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "hatte"
+        },
+        {
+          "person": "du",
+          "solution": "hattest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "hatte"
+        },
+        {
+          "person": "wir",
+          "solution": "hatten"
+        },
+        {
+          "person": "ihr",
+          "solution": "hattet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "hatten"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde haben"
+        },
+        {
+          "person": "du",
+          "solution": "wirst haben"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird haben"
+        },
+        {
+          "person": "wir",
+          "solution": "werden haben"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet haben"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden haben"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "werden",
+    "translation": "convertirse",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "werde"
+        },
+        {
+          "person": "du",
+          "solution": "wirst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird"
+        },
+        {
+          "person": "wir",
+          "solution": "werden"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "wurde"
+        },
+        {
+          "person": "du",
+          "solution": "wurdest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wurde"
+        },
+        {
+          "person": "wir",
+          "solution": "wurden"
+        },
+        {
+          "person": "ihr",
+          "solution": "wurdet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "wurden"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde werden"
+        },
+        {
+          "person": "du",
+          "solution": "wirst werden"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird werden"
+        },
+        {
+          "person": "wir",
+          "solution": "werden werden"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet werden"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden werden"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "gehen",
+    "translation": "ir",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "gehe"
+        },
+        {
+          "person": "du",
+          "solution": "gehst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "geht"
+        },
+        {
+          "person": "wir",
+          "solution": "gehen"
+        },
+        {
+          "person": "ihr",
+          "solution": "geht"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "gehen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "ging"
+        },
+        {
+          "person": "du",
+          "solution": "gingst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "ging"
+        },
+        {
+          "person": "wir",
+          "solution": "gingen"
+        },
+        {
+          "person": "ihr",
+          "solution": "gingt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "gingen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde gehen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst gehen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird gehen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden gehen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet gehen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden gehen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "kommen",
+    "translation": "venir",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "komme"
+        },
+        {
+          "person": "du",
+          "solution": "kommst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "kommt"
+        },
+        {
+          "person": "wir",
+          "solution": "kommen"
+        },
+        {
+          "person": "ihr",
+          "solution": "kommt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "kommen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "kam"
+        },
+        {
+          "person": "du",
+          "solution": "kamst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "kam"
+        },
+        {
+          "person": "wir",
+          "solution": "kamen"
+        },
+        {
+          "person": "ihr",
+          "solution": "kamt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "kamen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde kommen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst kommen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird kommen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden kommen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet kommen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden kommen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "sehen",
+    "translation": "ver",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "sehe"
+        },
+        {
+          "person": "du",
+          "solution": "siehst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "sieht"
+        },
+        {
+          "person": "wir",
+          "solution": "sehen"
+        },
+        {
+          "person": "ihr",
+          "solution": "seht"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "sehen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "sah"
+        },
+        {
+          "person": "du",
+          "solution": "sahst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "sah"
+        },
+        {
+          "person": "wir",
+          "solution": "sahen"
+        },
+        {
+          "person": "ihr",
+          "solution": "saht"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "sahen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde sehen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst sehen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird sehen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden sehen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet sehen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden sehen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "geben",
+    "translation": "dar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "gebe"
+        },
+        {
+          "person": "du",
+          "solution": "gibst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "gibt"
+        },
+        {
+          "person": "wir",
+          "solution": "geben"
+        },
+        {
+          "person": "ihr",
+          "solution": "gebt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "geben"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "gab"
+        },
+        {
+          "person": "du",
+          "solution": "gabst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "gab"
+        },
+        {
+          "person": "wir",
+          "solution": "gaben"
+        },
+        {
+          "person": "ihr",
+          "solution": "gabt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "gaben"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde geben"
+        },
+        {
+          "person": "du",
+          "solution": "wirst geben"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird geben"
+        },
+        {
+          "person": "wir",
+          "solution": "werden geben"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet geben"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden geben"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "nehmen",
+    "translation": "tomar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "nehme"
+        },
+        {
+          "person": "du",
+          "solution": "nimmst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "nimmt"
+        },
+        {
+          "person": "wir",
+          "solution": "nehmen"
+        },
+        {
+          "person": "ihr",
+          "solution": "nehmt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "nehmen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "nahm"
+        },
+        {
+          "person": "du",
+          "solution": "nahmst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "nahm"
+        },
+        {
+          "person": "wir",
+          "solution": "nahmen"
+        },
+        {
+          "person": "ihr",
+          "solution": "nahmt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "nahmen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde nehmen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst nehmen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird nehmen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden nehmen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet nehmen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden nehmen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "sprechen",
+    "translation": "hablar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "spreche"
+        },
+        {
+          "person": "du",
+          "solution": "sprichst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "spricht"
+        },
+        {
+          "person": "wir",
+          "solution": "sprechen"
+        },
+        {
+          "person": "ihr",
+          "solution": "sprecht"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "sprechen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "sprach"
+        },
+        {
+          "person": "du",
+          "solution": "sprachst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "sprach"
+        },
+        {
+          "person": "wir",
+          "solution": "sprachen"
+        },
+        {
+          "person": "ihr",
+          "solution": "spracht"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "sprachen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde sprechen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst sprechen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird sprechen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden sprechen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet sprechen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden sprechen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "essen",
+    "translation": "comer",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "esse"
+        },
+        {
+          "person": "du",
+          "solution": "isst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "isst"
+        },
+        {
+          "person": "wir",
+          "solution": "essen"
+        },
+        {
+          "person": "ihr",
+          "solution": "esst"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "essen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "aß"
+        },
+        {
+          "person": "du",
+          "solution": "aßest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "aß"
+        },
+        {
+          "person": "wir",
+          "solution": "aßen"
+        },
+        {
+          "person": "ihr",
+          "solution": "aßt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "aßen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde essen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst essen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird essen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden essen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet essen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden essen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "trinken",
+    "translation": "beber",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "trinke"
+        },
+        {
+          "person": "du",
+          "solution": "trinkst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "trinkt"
+        },
+        {
+          "person": "wir",
+          "solution": "trinken"
+        },
+        {
+          "person": "ihr",
+          "solution": "trinkt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "trinken"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "trank"
+        },
+        {
+          "person": "du",
+          "solution": "trankst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "trank"
+        },
+        {
+          "person": "wir",
+          "solution": "tranken"
+        },
+        {
+          "person": "ihr",
+          "solution": "trankt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "tranken"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde trinken"
+        },
+        {
+          "person": "du",
+          "solution": "wirst trinken"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird trinken"
+        },
+        {
+          "person": "wir",
+          "solution": "werden trinken"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet trinken"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden trinken"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "lesen",
+    "translation": "leer",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "lese"
+        },
+        {
+          "person": "du",
+          "solution": "liest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "liest"
+        },
+        {
+          "person": "wir",
+          "solution": "lesen"
+        },
+        {
+          "person": "ihr",
+          "solution": "lest"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "lesen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "las"
+        },
+        {
+          "person": "du",
+          "solution": "lasest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "las"
+        },
+        {
+          "person": "wir",
+          "solution": "lasen"
+        },
+        {
+          "person": "ihr",
+          "solution": "last"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "lasen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde lesen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst lesen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird lesen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden lesen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet lesen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden lesen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "schreiben",
+    "translation": "escribir",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "schreibe"
+        },
+        {
+          "person": "du",
+          "solution": "schreibst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "schreibt"
+        },
+        {
+          "person": "wir",
+          "solution": "schreiben"
+        },
+        {
+          "person": "ihr",
+          "solution": "schreibt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "schreiben"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "schrieb"
+        },
+        {
+          "person": "du",
+          "solution": "schriebst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "schrieb"
+        },
+        {
+          "person": "wir",
+          "solution": "schrieben"
+        },
+        {
+          "person": "ihr",
+          "solution": "schriebt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "schrieben"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde schreiben"
+        },
+        {
+          "person": "du",
+          "solution": "wirst schreiben"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird schreiben"
+        },
+        {
+          "person": "wir",
+          "solution": "werden schreiben"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet schreiben"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden schreiben"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "fahren",
+    "translation": "conducir",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "fahre"
+        },
+        {
+          "person": "du",
+          "solution": "fährst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "fährt"
+        },
+        {
+          "person": "wir",
+          "solution": "fahren"
+        },
+        {
+          "person": "ihr",
+          "solution": "fahrt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "fahren"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "fuhr"
+        },
+        {
+          "person": "du",
+          "solution": "fuhrst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "fuhr"
+        },
+        {
+          "person": "wir",
+          "solution": "fuhren"
+        },
+        {
+          "person": "ihr",
+          "solution": "fuhrt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "fuhren"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde fahren"
+        },
+        {
+          "person": "du",
+          "solution": "wirst fahren"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird fahren"
+        },
+        {
+          "person": "wir",
+          "solution": "werden fahren"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet fahren"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden fahren"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "schlafen",
+    "translation": "dormir",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "schlafe"
+        },
+        {
+          "person": "du",
+          "solution": "schläfst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "schläft"
+        },
+        {
+          "person": "wir",
+          "solution": "schlafen"
+        },
+        {
+          "person": "ihr",
+          "solution": "schlaft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "schlafen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "schlief"
+        },
+        {
+          "person": "du",
+          "solution": "schliefst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "schlief"
+        },
+        {
+          "person": "wir",
+          "solution": "schliefen"
+        },
+        {
+          "person": "ihr",
+          "solution": "schlieft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "schliefen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde schlafen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst schlafen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird schlafen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden schlafen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet schlafen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden schlafen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "laufen",
+    "translation": "correr",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "laufe"
+        },
+        {
+          "person": "du",
+          "solution": "läufst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "läuft"
+        },
+        {
+          "person": "wir",
+          "solution": "laufen"
+        },
+        {
+          "person": "ihr",
+          "solution": "lauft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "laufen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "lief"
+        },
+        {
+          "person": "du",
+          "solution": "liefst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "lief"
+        },
+        {
+          "person": "wir",
+          "solution": "liefen"
+        },
+        {
+          "person": "ihr",
+          "solution": "lieft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "liefen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde laufen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst laufen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird laufen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden laufen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet laufen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden laufen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "helfen",
+    "translation": "ayudar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "helfe"
+        },
+        {
+          "person": "du",
+          "solution": "hilfst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "hilft"
+        },
+        {
+          "person": "wir",
+          "solution": "helfen"
+        },
+        {
+          "person": "ihr",
+          "solution": "helft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "helfen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "half"
+        },
+        {
+          "person": "du",
+          "solution": "halfst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "half"
+        },
+        {
+          "person": "wir",
+          "solution": "halfen"
+        },
+        {
+          "person": "ihr",
+          "solution": "halft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "halfen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde helfen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst helfen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird helfen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden helfen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet helfen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden helfen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "treffen",
+    "translation": "encontrarse",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "treffe"
+        },
+        {
+          "person": "du",
+          "solution": "triffst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "trifft"
+        },
+        {
+          "person": "wir",
+          "solution": "treffen"
+        },
+        {
+          "person": "ihr",
+          "solution": "trefft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "treffen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "traf"
+        },
+        {
+          "person": "du",
+          "solution": "trafst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "traf"
+        },
+        {
+          "person": "wir",
+          "solution": "trafen"
+        },
+        {
+          "person": "ihr",
+          "solution": "traft"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "trafen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde treffen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst treffen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird treffen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden treffen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet treffen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden treffen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "finden",
+    "translation": "encontrar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "finde"
+        },
+        {
+          "person": "du",
+          "solution": "findest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "findet"
+        },
+        {
+          "person": "wir",
+          "solution": "finden"
+        },
+        {
+          "person": "ihr",
+          "solution": "findet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "finden"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "fand"
+        },
+        {
+          "person": "du",
+          "solution": "fandest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "fand"
+        },
+        {
+          "person": "wir",
+          "solution": "fanden"
+        },
+        {
+          "person": "ihr",
+          "solution": "fandet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "fanden"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde finden"
+        },
+        {
+          "person": "du",
+          "solution": "wirst finden"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird finden"
+        },
+        {
+          "person": "wir",
+          "solution": "werden finden"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet finden"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden finden"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "stehen",
+    "translation": "estar de pie",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "stehe"
+        },
+        {
+          "person": "du",
+          "solution": "stehst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "steht"
+        },
+        {
+          "person": "wir",
+          "solution": "stehen"
+        },
+        {
+          "person": "ihr",
+          "solution": "steht"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "stehen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "stand"
+        },
+        {
+          "person": "du",
+          "solution": "standest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "stand"
+        },
+        {
+          "person": "wir",
+          "solution": "standen"
+        },
+        {
+          "person": "ihr",
+          "solution": "standet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "standen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde stehen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst stehen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird stehen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden stehen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet stehen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden stehen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "sitzen",
+    "translation": "estar sentado",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "sitze"
+        },
+        {
+          "person": "du",
+          "solution": "sitzt"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "sitzt"
+        },
+        {
+          "person": "wir",
+          "solution": "sitzen"
+        },
+        {
+          "person": "ihr",
+          "solution": "sitzt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "sitzen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "saß"
+        },
+        {
+          "person": "du",
+          "solution": "saßest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "saß"
+        },
+        {
+          "person": "wir",
+          "solution": "saßen"
+        },
+        {
+          "person": "ihr",
+          "solution": "saßt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "saßen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde sitzen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst sitzen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird sitzen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden sitzen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet sitzen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden sitzen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "liegen",
+    "translation": "estar tumbado",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "liege"
+        },
+        {
+          "person": "du",
+          "solution": "liegst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "liegt"
+        },
+        {
+          "person": "wir",
+          "solution": "liegen"
+        },
+        {
+          "person": "ihr",
+          "solution": "liegt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "liegen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "lag"
+        },
+        {
+          "person": "du",
+          "solution": "lagst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "lag"
+        },
+        {
+          "person": "wir",
+          "solution": "lagen"
+        },
+        {
+          "person": "ihr",
+          "solution": "lagt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "lagen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde liegen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst liegen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird liegen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden liegen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet liegen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden liegen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "halten",
+    "translation": "sostener",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "halte"
+        },
+        {
+          "person": "du",
+          "solution": "hältst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "hält"
+        },
+        {
+          "person": "wir",
+          "solution": "halten"
+        },
+        {
+          "person": "ihr",
+          "solution": "haltet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "halten"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "hielt"
+        },
+        {
+          "person": "du",
+          "solution": "hieltst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "hielt"
+        },
+        {
+          "person": "wir",
+          "solution": "hielten"
+        },
+        {
+          "person": "ihr",
+          "solution": "hieltet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "hielten"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde halten"
+        },
+        {
+          "person": "du",
+          "solution": "wirst halten"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird halten"
+        },
+        {
+          "person": "wir",
+          "solution": "werden halten"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet halten"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden halten"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "tragen",
+    "translation": "llevar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "trage"
+        },
+        {
+          "person": "du",
+          "solution": "trägst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "trägt"
+        },
+        {
+          "person": "wir",
+          "solution": "tragen"
+        },
+        {
+          "person": "ihr",
+          "solution": "tragt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "tragen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "trug"
+        },
+        {
+          "person": "du",
+          "solution": "trugst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "trug"
+        },
+        {
+          "person": "wir",
+          "solution": "trugen"
+        },
+        {
+          "person": "ihr",
+          "solution": "trugt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "trugen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde tragen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst tragen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird tragen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden tragen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet tragen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden tragen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "beginnen",
+    "translation": "comenzar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "beginne"
+        },
+        {
+          "person": "du",
+          "solution": "beginnst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "beginnt"
+        },
+        {
+          "person": "wir",
+          "solution": "beginnen"
+        },
+        {
+          "person": "ihr",
+          "solution": "beginnt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "beginnen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "begann"
+        },
+        {
+          "person": "du",
+          "solution": "begannst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "begann"
+        },
+        {
+          "person": "wir",
+          "solution": "begannen"
+        },
+        {
+          "person": "ihr",
+          "solution": "begannt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "begannen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde beginnen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst beginnen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird beginnen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden beginnen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet beginnen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden beginnen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "bleiben",
+    "translation": "quedarse",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "bleibe"
+        },
+        {
+          "person": "du",
+          "solution": "bleibst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "bleibt"
+        },
+        {
+          "person": "wir",
+          "solution": "bleiben"
+        },
+        {
+          "person": "ihr",
+          "solution": "bleibt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "bleiben"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "blieb"
+        },
+        {
+          "person": "du",
+          "solution": "bliebst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "blieb"
+        },
+        {
+          "person": "wir",
+          "solution": "blieben"
+        },
+        {
+          "person": "ihr",
+          "solution": "bliebt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "blieben"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde bleiben"
+        },
+        {
+          "person": "du",
+          "solution": "wirst bleiben"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird bleiben"
+        },
+        {
+          "person": "wir",
+          "solution": "werden bleiben"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet bleiben"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden bleiben"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "wissen",
+    "translation": "saber",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "weiß"
+        },
+        {
+          "person": "du",
+          "solution": "weißt"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "weiß"
+        },
+        {
+          "person": "wir",
+          "solution": "wissen"
+        },
+        {
+          "person": "ihr",
+          "solution": "wisst"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "wissen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "wusste"
+        },
+        {
+          "person": "du",
+          "solution": "wusstest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wusste"
+        },
+        {
+          "person": "wir",
+          "solution": "wussten"
+        },
+        {
+          "person": "ihr",
+          "solution": "wusstet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "wussten"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde wissen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst wissen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird wissen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden wissen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet wissen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden wissen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "denken",
+    "translation": "pensar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "denke"
+        },
+        {
+          "person": "du",
+          "solution": "denkst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "denkt"
+        },
+        {
+          "person": "wir",
+          "solution": "denken"
+        },
+        {
+          "person": "ihr",
+          "solution": "denkt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "denken"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "dachte"
+        },
+        {
+          "person": "du",
+          "solution": "dachtest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "dachte"
+        },
+        {
+          "person": "wir",
+          "solution": "dachten"
+        },
+        {
+          "person": "ihr",
+          "solution": "dachtet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "dachten"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde denken"
+        },
+        {
+          "person": "du",
+          "solution": "wirst denken"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird denken"
+        },
+        {
+          "person": "wir",
+          "solution": "werden denken"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet denken"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden denken"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "bringen",
+    "translation": "traer",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "bringe"
+        },
+        {
+          "person": "du",
+          "solution": "bringst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "bringt"
+        },
+        {
+          "person": "wir",
+          "solution": "bringen"
+        },
+        {
+          "person": "ihr",
+          "solution": "bringt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "bringen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "brachte"
+        },
+        {
+          "person": "du",
+          "solution": "brachtest"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "brachte"
+        },
+        {
+          "person": "wir",
+          "solution": "brachten"
+        },
+        {
+          "person": "ihr",
+          "solution": "brachtet"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "brachten"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde bringen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst bringen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird bringen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden bringen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet bringen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden bringen"
+        }
+      ]
+    }
+  },
+  {
+    "verb": "vergessen",
+    "translation": "olvidar",
+    "tenses": {
+      "praesens": [
+        {
+          "person": "ich",
+          "solution": "vergesse"
+        },
+        {
+          "person": "du",
+          "solution": "vergisst"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "vergisst"
+        },
+        {
+          "person": "wir",
+          "solution": "vergessen"
+        },
+        {
+          "person": "ihr",
+          "solution": "vergesst"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "vergessen"
+        }
+      ],
+      "praeteritum": [
+        {
+          "person": "ich",
+          "solution": "vergaß"
+        },
+        {
+          "person": "du",
+          "solution": "vergaßt"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "vergaß"
+        },
+        {
+          "person": "wir",
+          "solution": "vergaßen"
+        },
+        {
+          "person": "ihr",
+          "solution": "vergaßt"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "vergaßen"
+        }
+      ],
+      "futur1": [
+        {
+          "person": "ich",
+          "solution": "werde vergessen"
+        },
+        {
+          "person": "du",
+          "solution": "wirst vergessen"
+        },
+        {
+          "person": "er/sie/es",
+          "solution": "wird vergessen"
+        },
+        {
+          "person": "wir",
+          "solution": "werden vergessen"
+        },
+        {
+          "person": "ihr",
+          "solution": "werdet vergessen"
+        },
+        {
+          "person": "sie/Sie",
+          "solution": "werden vergessen"
+        }
+      ]
+    }
+  }
+]
