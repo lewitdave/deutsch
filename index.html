@@ -1,1 +1,938 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0078d4">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deutsch Verbtrainer – Präsens</title>
+  <style>
+    * {
+  box-sizing: border-box;
+}
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: none;
+}
+
+    body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100%;
+  padding: 16px;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+#modeButton {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  margin-top: 24px;  
+  position: sticky;
+  top: env(safe-area-inset-top);
+
+}
+
+#question {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.meta {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #0078d4;
+  color: white;
+  border: none;
+}
+
+#feedback {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+#tenseButtons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+#tenseButtons button {
+  flex: 1;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 14px;
+}
+
+#tenseButtons button.active {
+  background: #0078d4;
+  color: white;
+}
+
+/* Mini-Link unter dem Verb */
+#showTableBtn {
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 13px;
+  margin-top: 4px;
+  padding: 0;
+  text-align: left;
+}
+
+#showTableBtn:hover {
+  text-decoration: underline;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: env(safe-area-inset-top);
+  z-index: 1000;
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+.overlayContent {
+  background: white;
+  width: 100%;
+  max-width: 480px;
+  margin-top: calc(env(safe-area-inset-top) + 40px);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.closeOverlay {
+  background: none;
+  border: none;
+  font-size: 20px;
+  float: right;
+}
+
+/* Tabelle */
+.verbTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.verbTable th,
+.verbTable td {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+/* Unregelmäßige Teile */
+.irregular {
+  color: #d00000;
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="meta" id="meta"></div>
+  <h2 id="question"></h2>
+
+  <button id="showTableBtn" onclick="openVerbTable()">
+  📋 Details anzeigen
+</button>
+  
+<input
+  type="text"
+  id="answer"
+  placeholder="Deine Eingabe"
+  onkeydown="if(event.key === 'Enter') checkAnswer();"
+
+  autocapitalize="none"
+  autocorrect="off"
+  autocomplete="off"
+  spellcheck="false"
+  inputmode="text"
+/>
+
+ <div id="feedback"></div>
+
+<div id="tenseButtons">
+  <button onclick="setTense('presente')">Gegenwart</button>
+  <button onclick="setTense('preterito')">Vergangenheit</button>
+  <button onclick="setTense('futuro')">Zukunft</button>
+</div>
+
+<button id="modeButton" onclick="toggleMode()">
+  Modus: Ein Verb komplett
+</button>
+
+<button id="trainerTypeButton" onclick="toggleTrainerType()">
+  Modus: Verben
+</button>
+
+<button id="categoryButton" onclick="openCategoryOverlay()" style="display:none">
+  Kategorie: Alle ▾
+</button>
+
+ 
+ 
+</div>
+
+<script>
+let verbs = [];
+
+let activeTense = "presente";
+ 
+const tenseLabels = {
+  presente: "Gegenwart",
+  preterito: "Vergangenheit",
+  futuro: "Zukunft"
+};
+
+let currentVerb;
+
+let currentForm;
+
+let mode = "singleVerb";
+// mögliche Werte: "random", "singleVerb"
+
+let currentVerbIndex = 0;
+let currentFormIndex = 0;
+
+let trainerType = "verbs";
+// mögliche Werte: "verbs", "vocab"
+
+let activeVocabCategory = null;
+// null = alle Kategorien
+
+let vocabStep = 1;
+// 1 = Wort, 2 = Satz
+
+let vocabAttempts = 0;
+// Anzahl Versuche für die aktuelle Aufgabe
+
+let currentExample = null;
+// aktuell ausgewählter Beispielsatz für Schritt 2
+
+/* ===============================
+   LEITNER SYSTEM (Spaced Repetition)
+   =============================== */
+
+let progress = {}; // id -> { box }
+
+/* Laden */
+function loadProgress() {
+  const data = localStorage.getItem("srProgress");
+  if (data) {
+    progress = JSON.parse(data);
+  }
+}
+
+/* Speichern */
+function saveProgress() {
+  localStorage.setItem("srProgress", JSON.stringify(progress));
+}
+
+/* Item-ID erzeugen */
+function getItemIdVerb(verb, tense, person) {
+  return `${verb}_${tense}_${person}`;
+}
+
+function getItemIdVocab(word) {
+  return `vocab_${word}`;
+}
+
+/* Box holen oder initialisieren */
+function getBox(id) {
+  if (!progress[id]) {
+    progress[id] = { box: 1 };
+  }
+  return progress[id].box;
+}
+
+/* Box updaten */
+function updateBox(id, correct) {
+  if (!progress[id]) progress[id] = { box: 1 };
+
+  if (correct) {
+    progress[id].box = Math.min(progress[id].box + 1, 4);
+  } else {
+    progress[id].box = 1;
+  }
+}
+
+/* Auswahl-Logik */
+function pickVerbItem() {
+  const weighted = [];
+
+  verbs.forEach(v => {
+    v.forms.forEach(f => {
+      const id = getItemIdVerb(v.verb, activeTense, f.person);
+      const box = getBox(id);
+
+      const weight =
+        box === 1 ? 5 :
+        box === 2 ? 3 :
+        box === 3 ? 2 : 1;
+
+      for (let i = 0; i < weight; i++) {
+        weighted.push({ verb: v, form: f });
+      }
+    });
+  });
+
+  return weighted[Math.floor(Math.random() * weighted.length)];
+}
+
+function pickVocabItem() {
+  const weighted = [];
+
+  vocabulary.forEach(v => {
+    const id = getItemIdVocab(v.word);
+    const box = getBox(id);
+
+    const weight =
+      box === 1 ? 5 :
+      box === 2 ? 3 :
+      box === 3 ? 2 : 1;
+
+    for (let i = 0; i < weight; i++) {
+      weighted.push(v);
+    }
+  });
+
+  return weighted[Math.floor(Math.random() * weighted.length)];
+}
+
+
+function getURLParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    set: params.get("set") || "verben",
+    tense: params.get("tense") || "presente"
+  };
+}
+
+  function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+async function loadVerbs() {
+  const { set, tense } = getURLParams();
+  activeTense = tense;
+  document.title = `Deutsch – ${tenseLabels[activeTense] || activeTense}`;
+  const filePath = `data/${set}.json`;
+
+  try {
+    const response = await fetch(filePath);
+    if (!response.ok) {
+      throw new Error("JSON-Datei nicht gefunden");
+    }
+
+    const data = await response.json();
+
+    verbs = data
+      .filter(v => v.tenses && v.tenses[tense])
+      .map(v => ({
+        verb: v.verb,
+        translation: v.translation,
+        forms: v.tenses[tense], // fürs Training
+        tenses: v.tenses         // fürs Overlay
+      }))
+      .filter(v => v.forms.length > 0);
+
+    // ⛔ Abbruch, wenn keine Verben vorhanden
+    if (verbs.length === 0) {
+      alert(`Keine Vokabeln für Zeitform: ${tense}`);
+      return;
+    }
+
+    // ✅ 1️⃣ Verben einmal zufällig mischen
+    shuffleArray(verbs);
+
+    // ✅ 2️⃣ Aktive Zeitform im UI hervorheben
+    updateActiveTenseButton();
+
+    // ✅ Reset für Lernmodus
+    currentVerb = null;
+    currentVerbIndex = 0;
+    currentFormIndex = 0;
+
+    // ✅ Fortschritt laden
+    loadProgress();
+
+    // ✅ Erste Aufgabe laden
+    nextVocab();
+
+  } catch (error) {
+    console.error(error);
+    alert("Fehler beim Laden der Vokabeln");
+  }
+}
+
+let vocabulary = [];
+let currentVocab;
+
+async function loadVocabulary(category = null) {
+  try {
+    const response = await fetch("data/vokabeln.json");
+    if (!response.ok) throw new Error("vokabeln.json nicht gefunden");
+
+    let data = await response.json();
+
+    // optional nach Kategorie filtern
+    if (category) {
+      data = data.filter(v => v.categories?.includes(category));
+    }
+
+    vocabulary = data;
+
+    if (vocabulary.length === 0) {
+      alert("Keine Vokabeln gefunden");
+      return;
+    }
+
+    shuffleArray(vocabulary);
+    currentVocab = null;
+
+    nextVocabVocabulary();
+
+  } catch (err) {
+    console.error(err);
+    alert("Fehler beim Laden der Vokabeln");
+  }
+}
+
+function getAllVocabCategories(data) {
+  const set = new Set();
+  data.forEach(v => {
+    v.categories?.forEach(cat => set.add(cat));
+  });
+  return Array.from(set).sort();
+}
+
+function openCategoryOverlay() {
+  const container = document.getElementById("categoryList");
+  container.innerHTML = "";
+
+  // "Alle"-Option
+  container.innerHTML += `
+    <button onclick="setVocabCategory(null)">
+      Alle
+    </button>
+  `;
+
+  const categories = getAllVocabCategories(vocabulary);
+  categories.forEach(cat => {
+    container.innerHTML += `
+      <button onclick="setVocabCategory('${cat}')">
+        ${cat}
+      </button>
+    `;
+  });
+
+  document.getElementById("categoryOverlay").classList.remove("hidden");
+}
+
+function closeCategoryOverlay() {
+  document.getElementById("categoryOverlay").classList.add("hidden");
+}
+
+function setVocabCategory(category) {
+  activeVocabCategory = category;
+
+  const label = category ? category : "Alle";
+  document.getElementById("categoryButton").textContent =
+    `Kategorie: ${label} ▾`;
+
+  closeCategoryOverlay();
+  loadVocabulary(activeVocabCategory);
+}
+
+
+function nextVocab() {
+
+  closeVerbTable();
+
+  const item = pickVerbItem();
+  currentVerb = item.verb;
+  currentForm = item.form;
+
+  document.getElementById("question").textContent =
+    `${currentVerb.verb} (${currentVerb.translation})`;
+
+  const level = getBox(
+    getItemIdVerb(currentVerb.verb, activeTense, currentForm.person)
+  );
+
+  document.getElementById("meta").textContent =
+    `Person: ${currentForm.person} (${tenseLabels[activeTense]}) • Level: ${level}`;
+
+  document.getElementById("answer").value = "";
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("feedback").className = "";
+  document.getElementById("answer").focus();
+}
+
+function nextVocabVocabulary() {
+  closeVerbTable();
+
+  if (vocabulary.length === 0) {
+    loadVocabulary(activeVocabCategory);
+    return;
+  }
+
+  currentVocab = pickVocabItem();
+  vocabStep = 1;
+  vocabAttempts = 0;
+  currentExample = null;
+
+  // Falls Beispielsätze existieren → einen zufällig vorbereiten
+  if (currentVocab.examples && currentVocab.examples.length > 0) {
+    const index = Math.floor(Math.random() * currentVocab.examples.length);
+    currentExample = currentVocab.examples[index];
+  }
+
+  // Schritt 1: Wort
+  document.getElementById("question").textContent =
+    currentVocab.translation;
+
+  const level = getBox(getItemIdVocab(currentVocab.word));
+
+document.getElementById("meta").textContent =
+  `Deutsches Wort eingeben • Level: ${level}`;
+
+  document.getElementById("answer").value = "";
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("feedback").className = "";
+
+  document.getElementById("answer").focus();
+}
+
+function startSentenceStep() {
+  vocabStep = 2;
+  vocabAttempts = 0;
+
+  document.getElementById("question").textContent =
+    currentExample.translation;
+
+  document.getElementById("meta").textContent =
+    "Satz auf Deutsch bilden";
+
+  document.getElementById("answer").value = "";
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("feedback").className = "";
+
+  document.getElementById("answer").focus();
+}
+
+function normalizeAnswer(text) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, " ")       // mehrere Leerzeichen → eins
+    .replace(/[.!?]+$/, "");    // Satzendzeichen entfernen
+}
+
+
+
+function checkAnswer() {
+  const inputEl = document.getElementById("answer");
+  const feedbackEl = document.getElementById("feedback");
+  const user = inputEl.value.trim().toLowerCase();
+
+  /* ===============================
+     VERB-TRAINER
+     =============================== */
+  if (trainerType === "verbs") {
+    const id = getItemIdVerb(currentVerb.verb, activeTense, currentForm.person);
+const correct = user === currentForm.solution.toLowerCase();
+
+updateBox(id, correct);
+saveProgress();
+
+if (correct) {
+  feedbackEl.textContent = "✔ Richtig!";
+  feedbackEl.className = "correct";
+  setTimeout(nextVocab, 500);
+} else {
+  feedbackEl.textContent = `✘ Falsch. Richtig ist: ${currentForm.solution}`;
+  feedbackEl.className = "wrong";
+}
+    return;
+  }
+
+  /* ===============================
+     VOCAB-TRAINER
+     =============================== */
+  if (trainerType !== "vocab") return;
+
+  /* ---------- SCHRITT 1: VOKABEL ---------- */
+  if (vocabStep === 1) {
+    const solutions = [currentVocab.word.toLowerCase()];
+
+    if (currentVocab.article) {
+      solutions.push(
+        `${currentVocab.article.toLowerCase()} ${currentVocab.word.toLowerCase()}`
+      );
+    }
+
+    const normalizedUser = normalizeAnswer(user);
+
+const normalizedSolutions = solutions.map(s =>
+  normalizeAnswer(s)
+);
+
+const correct = normalizedSolutions.includes(normalizedUser);
+const id = getItemIdVocab(currentVocab.word);
+
+if (correct) {
+  progress[id] = progress[id] || { box: 1 };
+  progress[id].box = Math.min(progress[id].box + 1, 4);
+} else {
+  progress[id] = progress[id] || { box: 1 };
+  progress[id].box = 1; // hart zurück bei Wort
+}
+
+saveProgress();
+
+if (correct) {
+  if (currentExample) {
+    startSentenceStep();
+  } else {
+    nextVocabVocabulary();
+  }
+} else {
+  
+
+
+  vocabAttempts++;
+
+  if (vocabAttempts === 1) {
+    feedbackEl.textContent = "Das war falsch. Versuche es erneut.";
+    feedbackEl.className = "wrong";
+  } else {
+    feedbackEl.innerHTML = `✘ Richtig ist: ${solutions.join(" oder ")}`;
+    feedbackEl.className = "wrong";
+  }
+}
+    return;
+  }
+
+  /* ---------- SCHRITT 2: SATZ ---------- */
+  if (vocabStep === 2) {
+    const id = getItemIdVocab(currentVocab.word);
+    const normalizedUser = normalizeAnswer(user);
+const normalizedSolution = normalizeAnswer(currentExample.sentence);
+
+
+if (normalizedUser === normalizedSolution) {
+
+      progress[id] = progress[id] || { box: 1 };
+
+      // ⭐ leicht belohnen
+      progress[id].box = Math.min(progress[id].box + 1, 4);
+      saveProgress();
+
+
+
+      feedbackEl.textContent = "✔ Richtig!";
+      feedbackEl.className = "correct";
+      setTimeout(nextVocabVocabulary, 600);
+    
+} else {
+
+  progress[id] = progress[id] || { box: 1 };
+
+  // ⭐ leicht bestrafen (nur -1 statt Reset)
+  progress[id].box = Math.max(1, progress[id].box - 1);
+  saveProgress();
+
+
+  vocabAttempts++;
+
+
+      if (vocabAttempts === 1) {
+        feedbackEl.textContent =
+          "Das war noch nicht korrekt. Versuche es erneut.";
+        feedbackEl.className = "wrong";
+      } else {
+        feedbackEl.innerHTML =
+          `✘ Richtig wäre:<br><strong>${currentExample.sentence}</strong>`;
+        feedbackEl.className = "wrong";
+        
+      }
+    }
+  }
+}
+
+
+function toggleMode() {
+  if (mode === "singleVerb") {
+    mode = "random";
+    document.getElementById("modeButton").textContent =
+      "Modus: Zufall";
+  } else {
+    mode = "singleVerb";
+    document.getElementById("modeButton").textContent =
+      "Modus: Ein Verb komplett";
+
+    // Reset für systematischen Modus
+    currentVerb = null;
+    currentFormIndex = 0;
+  }
+
+  
+if (verbs.length > 0) {
+  nextVocab();
+  }
+}
+  
+function toggleTrainerType() {
+  if (trainerType === "verbs") {
+    // ➜ Wechsel zu Vokabeln
+    trainerType = "vocab";
+    document.getElementById("trainerTypeButton").textContent = "Modus: Vokabeln";
+    document.getElementById("categoryButton").style.display = "block";
+
+    // ✅ VERBEN-UI AUSBLENDEN
+    document.getElementById("tenseButtons").style.display = "none";
+    document.getElementById("modeButton").style.display = "none";
+
+    loadVocabulary(activeVocabCategory);
+  } else {
+    // ➜ Wechsel zu Verben
+    trainerType = "verbs";
+    document.getElementById("trainerTypeButton").textContent = "Modus: Verben";
+    document.getElementById("categoryButton").style.display = "none";
+
+    // ✅ VERBEN-UI WIEDER EINBLENDEN
+    document.getElementById("tenseButtons").style.display = "flex";
+    document.getElementById("modeButton").style.display = "block";
+
+    loadVerbs();
+  }
+}
+
+
+function setTense(tense) {
+  const params = new URLSearchParams(window.location.search);
+  params.set("tense", tense);
+
+  // Optional: Set beibehalten
+  if (!params.get("set")) {
+    params.set("set", "verben");
+  }
+
+  window.location.search = params.toString();
+}
+
+  function updateActiveTenseButton() {
+  const buttons = document.querySelectorAll("#tenseButtons button");
+
+  buttons.forEach(btn => {
+    btn.classList.remove("active");
+  });
+
+  const activeButton = Array.from(buttons).find(
+    btn => btn.textContent.toLowerCase().includes(tenseLabels[activeTense].toLowerCase())
+  );
+
+  if (activeButton) {
+    activeButton.classList.add("active");
+  }
+}
+
+
+function openVerbTable() {
+  if (trainerType === "verbs" && !currentVerb) return;
+  if (trainerType === "vocab" && !currentVocab) return;
+
+  const container = document.getElementById("verbTableContainer");
+ if (trainerType === "verbs") {
+  container.innerHTML = generateVerbTable(currentVerb);
+} else {
+  container.innerHTML = generateVocabularyDetails(currentVocab);
+}
+
+  document.getElementById("verbOverlay").classList.remove("hidden");
+}
+
+function closeVerbTable() {
+  document.getElementById("verbOverlay").classList.add("hidden");
+}
+
+function highlightIrregular(base, form) {
+base = base.replace(/(se|ar|er|ir)$/, '');
+  let i = 0;
+  while (i < base.length && i < form.length && base[i] === form[i]) {
+    i++;
+  }
+
+  return (
+    form.slice(0, i) +
+    "<span class='irregular'>" +
+    form.slice(i) +
+    "</span>"
+  );
+}
+
+function generateVerbTable(verb) {
+  const persons = ["yo", "tú", "él/ella", "nosotros/as", "vosotros/as", "ellos/as"];
+  const tenses = ["presente", "preterito", "futuro"];
+
+  let html = `<h3>${verb.verb} – ${verb.translation}</h3>`;
+  html += "<table class='verbTable'>";
+
+  // Tabellenkopf
+  html += "<tr><th>Person</th>";
+  tenses.forEach(t => {
+    html += `<th>${tenseLabels[t]}</th>`;
+  });
+  html += "</tr>";
+
+  // Zeilen pro Person
+  persons.forEach(person => {
+    html += `<tr><th>${person}</th>`;
+
+    tenses.forEach(t => {
+      const formObj = verb.tenses[t]?.find(f => f.person === person);
+      const value = formObj
+        ? highlightIrregular(verb.verb, formObj.solution)
+        : "—";
+      html += `<td>${value}</td>`;
+    });
+
+    html += "</tr>";
+  });
+
+  html += "</table>";
+  return html;
+}
+
+function generateVocabularyDetails(vocab) {
+  let html = `<h3>${vocab.word} – ${vocab.translation}</h3>`;
+
+  if (vocab.article) {
+    html += `<p><strong>Artikel:</strong> ${vocab.article}</p>`;
+  }
+
+  if (vocab.plural) {
+    html += `<p><strong>Plural:</strong> ${vocab.plural}</p>`;
+  }
+
+  if (vocab.categories?.length) {
+    html += `<p><strong>Kategorie:</strong> ${vocab.categories.join(", ")}</p>`;
+  }
+
+  if (vocab.examples?.length) {
+    html += "<h4>Beispiele</h4><ul>";
+    vocab.examples.forEach(ex => {
+      html += `<li>${ex.sentence}<br><em>${ex.translation}</em></li>`;
+    });
+    html += "</ul>";
+  }
+
+  return html;
+}
+
+window.onload = function () {
+  document.getElementById("modeButton").textContent =
+    mode === "singleVerb"
+      ? "Modus: Ein Verb komplett"
+      : "Modus: Zufall";
+
+  // ✅ UI initial korrekt setzen
+  if (trainerType === "vocab") {
+    document.getElementById("tenseButtons").style.display = "none";
+    document.getElementById("modeButton").style.display = "none";
+    document.getElementById("categoryButton").style.display = "block";
+  } else {
+    document.getElementById("tenseButtons").style.display = "flex";
+    document.getElementById("modeButton").style.display = "block";
+    document.getElementById("categoryButton").style.display = "none";
+  }
+
+  loadVerbs();
+};
+
+
+
+</script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+
+<div id="verbOverlay" class="overlay hidden">
+  <div class="overlayContent">
+    <button class="closeOverlay" onclick="closeVerbTable()">✕</button>
+    <div id="verbTableContainer"></div>
+  </div>
+</div>
+
+<div id="categoryOverlay" class="overlay hidden">
+  <div class="overlayContent">
+    <button class="closeOverlay" onclick="closeCategoryOverlay()">✕</button>
+    <h3>Kategorie auswählen</h3>
+    <div id="categoryList"></div>
+  </div>
+</div>
+
+</body>
+</html>
