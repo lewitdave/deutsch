@@ -1,4 +1,4 @@
-const CACHE_NAME = "deutsch-trainer-v4";
+const CACHE_NAME = "deutsch-trainer-v5";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
