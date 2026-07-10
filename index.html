@@ -208,9 +208,9 @@ button {
  <div id="feedback"></div>
 
 <div id="tenseButtons">
-  <button onclick="setTense('presente')">Gegenwart</button>
-  <button onclick="setTense('preterito')">Vergangenheit</button>
-  <button onclick="setTense('futuro')">Zukunft</button>
+  <button onclick="setTense('praesens')">Gegenwart</button>
+  <button onclick="setTense('praeteritum')">Vergangenheit</button>
+  <button onclick="setTense('praeteritum')">Zukunft</button>
 </div>
 
 <button id="modeButton" onclick="toggleMode()">
@@ -232,12 +232,12 @@ button {
 <script>
 let verbs = [];
 
-let activeTense = "presente";
+let activeTense = "praesens";
  
 const tenseLabels = {
-  presente: "Gegenwart",
-  preterito: "Vergangenheit",
-  futuro: "Zukunft"
+  praesens: "Gegenwart",
+  praeteritum: "Vergangenheit",
+  praeteritum: "Zukunft"
 };
 
 let currentVerb;
@@ -360,7 +360,7 @@ function getURLParams() {
   const params = new URLSearchParams(window.location.search);
   return {
     set: params.get("set") || "verben",
-    tense: params.get("tense") || "presente"
+    tense: params.get("tense") || "praesens"
   };
 }
 
@@ -833,7 +833,7 @@ base = base.replace(/(se|ar|er|ir)$/, '');
 
 function generateVerbTable(verb) {
   const persons = ["yo", "tú", "él/ella", "nosotros/as", "vosotros/as", "ellos/as"];
-  const tenses = ["presente", "preterito", "futuro"];
+  const tenses = ["praesens", "praeteritum", "praeteritum"];
 
   let html = `<h3>${verb.verb} – ${verb.translation}</h3>`;
   html += "<table class='verbTable'>";
