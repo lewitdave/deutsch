@@ -210,7 +210,7 @@ button {
 <div id="tenseButtons">
   <button onclick="setTense('praesens')">Gegenwart</button>
   <button onclick="setTense('praeteritum')">Vergangenheit</button>
-  <button onclick="setTense('praeteritum')">Zukunft</button>
+  <button onclick="setTense('futur1')">Zukunft</button>
 </div>
 
 <button id="modeButton" onclick="toggleMode()">
@@ -237,7 +237,7 @@ let activeTense = "praesens";
 const tenseLabels = {
   praesens: "Gegenwart",
   praeteritum: "Vergangenheit",
-  praeteritum: "Zukunft"
+  futur1: "Zukunft"
 };
 
 let currentVerb;
@@ -833,7 +833,7 @@ base = base.replace(/(se|ar|er|ir)$/, '');
 
 function generateVerbTable(verb) {
   const persons = ["yo", "tú", "él/ella", "nosotros/as", "vosotros/as", "ellos/as"];
-  const tenses = ["praesens", "praeteritum", "praeteritum"];
+  const tenses = ["praesens", "praeteritum", "futur1"];
 
   let html = `<h3>${verb.verb} – ${verb.translation}</h3>`;
   html += "<table class='verbTable'>";
