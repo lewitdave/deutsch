@@ -1,200 +1,162 @@
-[ 
-  {
-    "word": "Haus",
-    "translation": "casa",
-    "type": "noun",
-    "categories": [
-      "wohnen"
-    ],
-    "article": "das",
-    "plural": "Häuser",
-    "examples": [
-      {
-        "sentence": "Das Haus ist groß.",
-        "translation": "La casa es grande."
-      },
-      {
-        "sentence": "Ich bin zu Hause.",
-        "translation": "Estoy en casa."
-      }
-    ]
-  },
+[
   {
     "word": "Familie",
     "translation": "familia",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["familie"],
+    "gender": "f",
     "article": "die",
     "plural": "Familien",
     "examples": [
       {
-        "sentence": "Das Wort ist Familie.",
-        "translation": "La palabra es familia."
+        "sentence": "Meine Familie wohnt in Deutschland.",
+        "translation": "Mi familia vive en Alemania."
       },
       {
-        "sentence": "Ich kenne Familie.",
-        "translation": "Conozco familia."
+        "sentence": "Ich liebe meine Familie.",
+        "translation": "Quiero a mi familia."
+      },
+      {
+        "sentence": "Am Wochenende besuche ich meine Familie.",
+        "translation": "El fin de semana visito a mi familia."
       }
     ]
   },
   {
-    "word": "Freund",
-    "translation": "amigo",
+    "word": "Vater",
+    "translation": "padre",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["familie"],
+    "gender": "m",
     "article": "der",
-    "plural": "Freunde",
+    "plural": "Väter",
     "examples": [
       {
-        "sentence": "Das Wort ist Freund.",
-        "translation": "La palabra es amigo."
+        "sentence": "Mein Vater arbeitet viel.",
+        "translation": "Mi padre trabaja mucho."
       },
       {
-        "sentence": "Ich kenne Freund.",
-        "translation": "Conozco amigo."
+        "sentence": "Mein Vater fährt ein Auto.",
+        "translation": "Mi padre conduce un coche."
+      },
+      {
+        "sentence": "Ich spreche oft mit meinem Vater.",
+        "translation": "Hablo a menudo con mi padre."
       }
     ]
   },
   {
-    "word": "Freundin",
-    "translation": "amiga",
+    "word": "Mutter",
+    "translation": "madre",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["familie"],
+    "gender": "f",
     "article": "die",
-    "plural": "Freundinnen",
+    "plural": "Mütter",
     "examples": [
       {
-        "sentence": "Das Wort ist Freundin.",
-        "translation": "La palabra es amiga."
+        "sentence": "Meine Mutter kocht gern.",
+        "translation": "A mi madre le gusta cocinar."
       },
       {
-        "sentence": "Ich kenne Freundin.",
-        "translation": "Conozco amiga."
+        "sentence": "Meine Mutter ist heute zu Hause.",
+        "translation": "Mi madre está hoy en casa."
+      },
+      {
+        "sentence": "Ich helfe meiner Mutter.",
+        "translation": "Ayudo a mi madre."
       }
     ]
   },
   {
-    "word": "Stadt",
-    "translation": "ciudad",
+    "word": "Bruder",
+    "translation": "hermano",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["familie"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Brüder",
+    "examples": [
+      {
+        "sentence": "Mein Bruder lernt Deutsch.",
+        "translation": "Mi hermano aprende alemán."
+      },
+      {
+        "sentence": "Mein Bruder wohnt in Berlin.",
+        "translation": "Mi hermano vive en Berlín."
+      },
+      {
+        "sentence": "Ich treffe meinen Bruder morgen.",
+        "translation": "Mañana veo a mi hermano."
+      }
+    ]
+  },
+  {
+    "word": "Schwester",
+    "translation": "hermana",
+    "type": "noun",
+    "categories": ["familie"],
+    "gender": "f",
     "article": "die",
-    "plural": "Städte",
+    "plural": "Schwestern",
     "examples": [
       {
-        "sentence": "Das Wort ist Stadt.",
-        "translation": "La palabra es ciudad."
+        "sentence": "Meine Schwester spricht Spanisch.",
+        "translation": "Mi hermana habla español."
       },
       {
-        "sentence": "Ich kenne Stadt.",
-        "translation": "Conozco ciudad."
+        "sentence": "Meine Schwester arbeitet im Krankenhaus.",
+        "translation": "Mi hermana trabaja en el hospital."
+      },
+      {
+        "sentence": "Ich telefoniere mit meiner Schwester.",
+        "translation": "Hablo por teléfono con mi hermana."
       }
     ]
   },
   {
-    "word": "Auto",
-    "translation": "coche",
+    "word": "Sohn",
+    "translation": "hijo",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
-    "article": "das",
-    "plural": "Autos",
+    "categories": ["familie"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Söhne",
     "examples": [
       {
-        "sentence": "Das Wort ist Auto.",
-        "translation": "La palabra es coche."
+        "sentence": "Mein Sohn geht zur Schule.",
+        "translation": "Mi hijo va a la escuela."
       },
       {
-        "sentence": "Ich kenne Auto.",
-        "translation": "Conozco coche."
+        "sentence": "Mein Sohn spielt Fußball.",
+        "translation": "Mi hijo juega al fútbol."
+      },
+      {
+        "sentence": "Ich bin stolz auf meinen Sohn.",
+        "translation": "Estoy orgulloso de mi hijo."
       }
     ]
   },
   {
-    "word": "Arbeit",
-    "translation": "trabajo",
+    "word": "Tochter",
+    "translation": "hija",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["familie"],
+    "gender": "f",
     "article": "die",
-    "plural": "Arbeiten",
+    "plural": "Töchter",
     "examples": [
       {
-        "sentence": "Das Wort ist Arbeit.",
-        "translation": "La palabra es trabajo."
+        "sentence": "Meine Tochter liest ein Buch.",
+        "translation": "Mi hija lee un libro."
       },
       {
-        "sentence": "Ich kenne Arbeit.",
-        "translation": "Conozco trabajo."
-      }
-    ]
-  },
-  {
-    "word": "Zeit",
-    "translation": "tiempo",
-    "type": "noun",
-    "categories": [
-      "alltag"
-    ],
-    "article": "die",
-    "plural": "Zeiten",
-    "examples": [
-      {
-        "sentence": "Das Wort ist Zeit.",
-        "translation": "La palabra es tiempo."
+        "sentence": "Meine Tochter ist sehr freundlich.",
+        "translation": "Mi hija es muy amable."
       },
       {
-        "sentence": "Ich kenne Zeit.",
-        "translation": "Conozco tiempo."
-      }
-    ]
-  },
-  {
-    "word": "Wasser",
-    "translation": "agua",
-    "type": "noun",
-    "categories": [
-      "alltag"
-    ],
-    "article": "das",
-    "examples": [
-      {
-        "sentence": "Das Wort ist Wasser.",
-        "translation": "La palabra es agua."
-      },
-      {
-        "sentence": "Ich kenne Wasser.",
-        "translation": "Conozco agua."
-      }
-    ]
-  },
-  {
-    "word": "Brot",
-    "translation": "pan",
-    "type": "noun",
-    "categories": [
-      "alltag"
-    ],
-    "article": "das",
-    "plural": "Brote",
-    "examples": [
-      {
-        "sentence": "Das Wort ist Brot.",
-        "translation": "La palabra es pan."
-      },
-      {
-        "sentence": "Ich kenne Brot.",
-        "translation": "Conozco pan."
+        "sentence": "Ich hole meine Tochter von der Schule ab.",
+        "translation": "Recojo a mi hija de la escuela."
       }
     ]
   },
@@ -202,39 +164,95 @@
     "word": "Kind",
     "translation": "niño",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["familie"],
+    "gender": "n",
     "article": "das",
     "plural": "Kinder",
     "examples": [
       {
-        "sentence": "Das Wort ist Kind.",
-        "translation": "La palabra es niño."
+        "sentence": "Das Kind schläft.",
+        "translation": "El niño está durmiendo."
       },
       {
-        "sentence": "Ich kenne Kind.",
-        "translation": "Conozco niño."
+        "sentence": "Das Kind spielt im Garten.",
+        "translation": "El niño juega en el jardín."
+      },
+      {
+        "sentence": "Das Kind lernt schnell.",
+        "translation": "El niño aprende rápido."
       }
     ]
   },
   {
+    "word": "Eltern",
+    "translation": "padres",
+    "type": "noun",
+    "categories": ["familie"],
+    "gender": "pl",
+    "article": "die",
+    "plural": "Eltern",
+    "examples": [
+      {
+        "sentence": "Meine Eltern wohnen in Hamburg.",
+        "translation": "Mis padres viven en Hamburgo."
+      },
+      {
+        "sentence": "Ich besuche meine Eltern oft.",
+        "translation": "Visito a mis padres a menudo."
+      },
+      {
+        "sentence": "Meine Eltern sprechen Deutsch.",
+        "translation": "Mis padres hablan alemán."
+      }
+    ]
+  },
+  {
+    "word": "Großmutter",
+    "translation": "abuela",
+    "type": "noun",
+    "categories": ["familie"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Großmütter",
+    "examples": [
+      {
+        "sentence": "Meine Großmutter backt Kuchen.",
+        "translation": "Mi abuela hace pasteles."
+      },
+      {
+        "sentence": "Meine Großmutter wohnt auf dem Land.",
+        "translation": "Mi abuela vive en el campo."
+      },
+      {
+        "sentence": "Ich besuche meine Großmutter am Sonntag.",
+        "translation": "Visito a mi abuela el domingo."
+      }
+    ]
+  },
+
+
+
+  
+  {
     "word": "Mann",
     "translation": "hombre",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["personen"],
+    "gender": "m",
     "article": "der",
     "plural": "Männer",
     "examples": [
       {
-        "sentence": "Das Wort ist Mann.",
-        "translation": "La palabra es hombre."
+        "sentence": "Der Mann arbeitet in einer Bank.",
+        "translation": "El hombre trabaja en un banco."
       },
       {
-        "sentence": "Ich kenne Mann.",
-        "translation": "Conozco hombre."
+        "sentence": "Der Mann liest die Zeitung.",
+        "translation": "El hombre lee el periódico."
+      },
+      {
+        "sentence": "Ich kenne diesen Mann.",
+        "translation": "Conozco a este hombre."
       }
     ]
   },
@@ -242,241 +260,936 @@
     "word": "Frau",
     "translation": "mujer",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["personen"],
+    "gender": "f",
     "article": "die",
     "plural": "Frauen",
     "examples": [
       {
-        "sentence": "Das Wort ist Frau.",
-        "translation": "La palabra es mujer."
+        "sentence": "Die Frau spricht Deutsch.",
+        "translation": "La mujer habla alemán."
       },
       {
-        "sentence": "Ich kenne Frau.",
-        "translation": "Conozco mujer."
+        "sentence": "Die Frau wohnt hier.",
+        "translation": "La mujer vive aquí."
+      },
+      {
+        "sentence": "Ich sehe die Frau jeden Tag.",
+        "translation": "Veo a la mujer todos los días."
       }
     ]
   },
   {
-    "word": "Tag",
-    "translation": "día",
+    "word": "Freund",
+    "translation": "amigo",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["personen"],
+    "gender": "m",
     "article": "der",
-    "plural": "Tage",
+    "plural": "Freunde",
     "examples": [
       {
-        "sentence": "Das Wort ist Tag.",
-        "translation": "La palabra es día."
+        "sentence": "Mein Freund arbeitet in Berlin.",
+        "translation": "Mi amigo trabaja en Berlín."
       },
       {
-        "sentence": "Ich kenne Tag.",
-        "translation": "Conozco día."
+        "sentence": "Ich treffe meinen Freund heute.",
+        "translation": "Hoy veo a mi amigo."
+      },
+      {
+        "sentence": "Mein Freund hilft mir oft.",
+        "translation": "Mi amigo me ayuda a menudo."
       }
     ]
   },
   {
-    "word": "Jahr",
-    "translation": "año",
+    "word": "Freundin",
+    "translation": "amiga",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
-    "article": "das",
-    "plural": "Jahre",
+    "categories": ["personen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Freundinnen",
     "examples": [
       {
-        "sentence": "Das Wort ist Jahr.",
-        "translation": "La palabra es año."
+        "sentence": "Meine Freundin lernt Deutsch.",
+        "translation": "Mi amiga aprende alemán."
       },
       {
-        "sentence": "Ich kenne Jahr.",
-        "translation": "Conozco año."
+        "sentence": "Meine Freundin reist gern.",
+        "translation": "A mi amiga le gusta viajar."
+      },
+      {
+        "sentence": "Ich telefoniere mit meiner Freundin.",
+        "translation": "Hablo por teléfono con mi amiga."
+      }
+    ]
+  },
+  {
+    "word": "Kollege",
+    "translation": "compañero de trabajo",
+    "type": "noun",
+    "categories": ["personen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Kollegen",
+    "examples": [
+      {
+        "sentence": "Mein Kollege arbeitet im Büro.",
+        "translation": "Mi compañero trabaja en la oficina."
+      },
+      {
+        "sentence": "Der Kollege spricht Englisch.",
+        "translation": "El compañero habla inglés."
+      },
+      {
+        "sentence": "Ich esse mit meinem Kollegen zu Mittag.",
+        "translation": "Almuerzo con mi compañero."
+      }
+    ]
+  },
+  {
+    "word": "Kollegin",
+    "translation": "compañera de trabajo",
+    "type": "noun",
+    "categories": ["personen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Kolleginnen",
+    "examples": [
+      {
+        "sentence": "Meine Kollegin arbeitet von zu Hause.",
+        "translation": "Mi compañera trabaja desde casa."
+      },
+      {
+        "sentence": "Die Kollegin ist sehr freundlich.",
+        "translation": "La compañera es muy amable."
+      },
+      {
+        "sentence": "Ich spreche oft mit meiner Kollegin.",
+        "translation": "Hablo a menudo con mi compañera."
+      }
+    ]
+  },
+  {
+    "word": "Nachbar",
+    "translation": "vecino",
+    "type": "noun",
+    "categories": ["personen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Nachbarn",
+    "examples": [
+      {
+        "sentence": "Mein Nachbar hat einen Hund.",
+        "translation": "Mi vecino tiene un perro."
+      },
+      {
+        "sentence": "Der Nachbar wohnt nebenan.",
+        "translation": "El vecino vive al lado."
+      },
+      {
+        "sentence": "Ich spreche manchmal mit meinem Nachbarn.",
+        "translation": "A veces hablo con mi vecino."
+      }
+    ]
+  },
+  {
+    "word": "Nachbarin",
+    "translation": "vecina",
+    "type": "noun",
+    "categories": ["personen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Nachbarinnen",
+    "examples": [
+      {
+        "sentence": "Meine Nachbarin kommt aus Spanien.",
+        "translation": "Mi vecina es de España."
+      },
+      {
+        "sentence": "Die Nachbarin ist sehr nett.",
+        "translation": "La vecina es muy amable."
+      },
+      {
+        "sentence": "Ich helfe meiner Nachbarin.",
+        "translation": "Ayudo a mi vecina."
+      }
+    ]
+  },
+  {
+    "word": "Arzt",
+    "translation": "médico",
+    "type": "noun",
+    "categories": ["personen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Ärzte",
+    "examples": [
+      {
+        "sentence": "Der Arzt arbeitet im Krankenhaus.",
+        "translation": "El médico trabaja en el hospital."
+      },
+      {
+        "sentence": "Ich gehe zum Arzt.",
+        "translation": "Voy al médico."
+      },
+      {
+        "sentence": "Der Arzt hilft den Patienten.",
+        "translation": "El médico ayuda a los pacientes."
+      }
+    ]
+  },
+  {
+    "word": "Lehrer",
+    "translation": "profesor",
+    "type": "noun",
+    "categories": ["personen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Lehrer",
+    "examples": [
+      {
+        "sentence": "Der Lehrer erklärt die Aufgabe.",
+        "translation": "El profesor explica la tarea."
+      },
+      {
+        "sentence": "Mein Lehrer spricht langsam.",
+        "translation": "Mi profesor habla despacio."
+      },
+      {
+        "sentence": "Die Schüler mögen den Lehrer.",
+        "translation": "A los alumnos les gusta el profesor."
+      }
+    ]
+  },
+
+
+
+
+  {
+    "word": "Haus",
+    "translation": "casa",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Häuser",
+    "examples": [
+      {
+        "sentence": "Das Haus ist sehr groß.",
+        "translation": "La casa es muy grande."
+      },
+      {
+        "sentence": "Ich wohne in einem alten Haus.",
+        "translation": "Vivo en una casa antigua."
+      },
+      {
+        "sentence": "Vor dem Haus steht ein Auto.",
+        "translation": "Delante de la casa hay un coche."
       }
     ]
   },
   {
     "word": "Wohnung",
-    "translation": "piso",
+    "translation": "apartamento",
     "type": "noun",
-    "categories": [
-      "alltag"
-    ],
+    "categories": ["wohnen"],
+    "gender": "f",
     "article": "die",
     "plural": "Wohnungen",
     "examples": [
       {
-        "sentence": "Das Wort ist Wohnung.",
-        "translation": "La palabra es piso."
+        "sentence": "Meine Wohnung liegt im Zentrum.",
+        "translation": "Mi apartamento está en el centro."
       },
       {
-        "sentence": "Ich kenne Wohnung.",
-        "translation": "Conozco piso."
+        "sentence": "Die Wohnung hat drei Zimmer.",
+        "translation": "El apartamento tiene tres habitaciones."
+      },
+      {
+        "sentence": "Wir suchen eine neue Wohnung.",
+        "translation": "Buscamos un apartamento nuevo."
       }
     ]
   },
   {
-    "word": "sein",
-    "translation": "ser/estar",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "word": "Zimmer",
+    "translation": "habitación",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Zimmer",
     "examples": [
       {
-        "sentence": "Ich bin.",
-        "translation": "Ejemplo."
+        "sentence": "Mein Zimmer ist ordentlich.",
+        "translation": "Mi habitación está ordenada."
       },
       {
-        "sentence": "Wir sein.",
-        "translation": "Ejemplo."
+        "sentence": "Das Zimmer hat ein großes Fenster.",
+        "translation": "La habitación tiene una ventana grande."
+      },
+      {
+        "sentence": "Ich räume mein Zimmer auf.",
+        "translation": "Ordeno mi habitación."
       }
     ]
   },
   {
-    "word": "haben",
-    "translation": "tener",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "word": "Küche",
+    "translation": "cocina",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Küchen",
     "examples": [
       {
-        "sentence": "Ich habe.",
-        "translation": "Ejemplo."
+        "sentence": "Die Küche ist modern.",
+        "translation": "La cocina es moderna."
       },
       {
-        "sentence": "Wir haben.",
-        "translation": "Ejemplo."
+        "sentence": "Meine Mutter kocht in der Küche.",
+        "translation": "Mi madre cocina en la cocina."
+      },
+      {
+        "sentence": "Wir essen in der Küche.",
+        "translation": "Comemos en la cocina."
       }
     ]
   },
   {
-    "word": "gehen",
-    "translation": "ir",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "word": "Bad",
+    "translation": "baño",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Bäder",
     "examples": [
       {
-        "sentence": "Ich gehen.",
-        "translation": "Ejemplo."
+        "sentence": "Das Bad ist klein, aber sauber.",
+        "translation": "El baño es pequeño pero limpio."
       },
       {
-        "sentence": "Wir gehen.",
-        "translation": "Ejemplo."
+        "sentence": "Ich putze heute das Bad.",
+        "translation": "Hoy limpio el baño."
+      },
+      {
+        "sentence": "Im Bad gibt es eine Dusche.",
+        "translation": "En el baño hay una ducha."
       }
     ]
   },
   {
-    "word": "kommen",
-    "translation": "venir",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "word": "Fenster",
+    "translation": "ventana",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Fenster",
     "examples": [
       {
-        "sentence": "Ich kommen.",
-        "translation": "Ejemplo."
+        "sentence": "Das Fenster ist offen.",
+        "translation": "La ventana está abierta."
       },
       {
-        "sentence": "Wir kommen.",
-        "translation": "Ejemplo."
+        "sentence": "Ich sehe den Garten durch das Fenster.",
+        "translation": "Veo el jardín por la ventana."
+      },
+      {
+        "sentence": "Bitte schließe das Fenster.",
+        "translation": "Por favor, cierra la ventana."
       }
     ]
   },
   {
-    "word": "lernen",
-    "translation": "aprender",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "word": "Tür",
+    "translation": "puerta",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Türen",
     "examples": [
       {
-        "sentence": "Ich lernen.",
-        "translation": "Ejemplo."
+        "sentence": "Die Tür ist geschlossen.",
+        "translation": "La puerta está cerrada."
       },
       {
-        "sentence": "Wir lernen.",
-        "translation": "Ejemplo."
+        "sentence": "Jemand steht vor der Tür.",
+        "translation": "Hay alguien delante de la puerta."
+      },
+      {
+        "sentence": "Ich öffne die Tür.",
+        "translation": "Abro la puerta."
       }
     ]
   },
+  {
+    "word": "Tisch",
+    "translation": "mesa",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Tische",
+    "examples": [
+      {
+        "sentence": "Der Tisch steht im Wohnzimmer.",
+        "translation": "La mesa está en el salón."
+      },
+      {
+        "sentence": "Auf dem Tisch liegt ein Buch.",
+        "translation": "Hay un libro sobre la mesa."
+      },
+      {
+        "sentence": "Wir sitzen am Tisch.",
+        "translation": "Estamos sentados a la mesa."
+      }
+    ]
+  },
+  {
+    "word": "Stuhl",
+    "translation": "silla",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Stühle",
+    "examples": [
+      {
+        "sentence": "Der Stuhl ist bequem.",
+        "translation": "La silla es cómoda."
+      },
+      {
+        "sentence": "Bitte setz dich auf den Stuhl.",
+        "translation": "Por favor, siéntate en la silla."
+      },
+      {
+        "sentence": "Neben dem Tisch steht ein Stuhl.",
+        "translation": "Junto a la mesa hay una silla."
+      }
+    ]
+  },
+  {
+    "word": "Bett",
+    "translation": "cama",
+    "type": "noun",
+    "categories": ["wohnen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Betten",
+    "examples": [
+      {
+        "sentence": "Das Bett ist sehr bequem.",
+        "translation": "La cama es muy cómoda."
+      },
+      {
+        "sentence": "Ich gehe um zehn Uhr ins Bett.",
+        "translation": "Me voy a la cama a las diez."
+      },
+      {
+        "sentence": "Das Kind schläft im Bett.",
+        "translation": "El niño duerme en la cama."
+      }
+    ]
+  },
+
+
+
+
+  
+  {
+    "word": "Arbeit",
+    "translation": "trabajo",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Arbeiten",
+    "examples": [
+      {
+        "sentence": "Meine Arbeit macht mir Spaß.",
+        "translation": "Mi trabajo me gusta."
+      },
+      {
+        "sentence": "Ich fahre jeden Morgen zur Arbeit.",
+        "translation": "Voy al trabajo cada mañana."
+      },
+      {
+        "sentence": "Heute habe ich viel Arbeit.",
+        "translation": "Hoy tengo mucho trabajo."
+      }
+    ]
+  },
+  {
+    "word": "Beruf",
+    "translation": "profesión",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Berufe",
+    "examples": [
+      {
+        "sentence": "Was ist dein Beruf?",
+        "translation": "¿Cuál es tu profesión?"
+      },
+      {
+        "sentence": "Mein Beruf ist interessant.",
+        "translation": "Mi profesión es interesante."
+      },
+      {
+        "sentence": "Viele Menschen mögen ihren Beruf.",
+        "translation": "A muchas personas les gusta su profesión."
+      }
+    ]
+  },
+  {
+    "word": "Büro",
+    "translation": "oficina",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Büros",
+    "examples": [
+      {
+        "sentence": "Ich arbeite im Büro.",
+        "translation": "Trabajo en la oficina."
+      },
+      {
+        "sentence": "Das Büro ist modern.",
+        "translation": "La oficina es moderna."
+      },
+      {
+        "sentence": "Unser Büro liegt im Zentrum.",
+        "translation": "Nuestra oficina está en el centro."
+      }
+    ]
+  },
+  {
+    "word": "Firma",
+    "translation": "empresa",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Firmen",
+    "examples": [
+      {
+        "sentence": "Die Firma sucht neue Mitarbeiter.",
+        "translation": "La empresa busca nuevos empleados."
+      },
+      {
+        "sentence": "Ich arbeite seit drei Jahren in dieser Firma.",
+        "translation": "Trabajo en esta empresa desde hace tres años."
+      },
+      {
+        "sentence": "Die Firma ist sehr erfolgreich.",
+        "translation": "La empresa tiene mucho éxito."
+      }
+    ]
+  },
+  {
+    "word": "Chef",
+    "translation": "jefe",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Chefs",
+    "examples": [
+      {
+        "sentence": "Mein Chef ist freundlich.",
+        "translation": "Mi jefe es amable."
+      },
+      {
+        "sentence": "Der Chef hat heute ein Meeting.",
+        "translation": "El jefe tiene una reunión hoy."
+      },
+      {
+        "sentence": "Ich spreche mit meinem Chef.",
+        "translation": "Hablo con mi jefe."
+      }
+    ]
+  },
+  {
+    "word": "Kollege",
+    "translation": "compañero de trabajo",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Kollegen",
+    "examples": [
+      {
+        "sentence": "Mein Kollege hilft mir oft.",
+        "translation": "Mi compañero me ayuda a menudo."
+      },
+      {
+        "sentence": "Ich trinke Kaffee mit meinem Kollegen.",
+        "translation": "Tomo café con mi compañero."
+      },
+      {
+        "sentence": "Der Kollege arbeitet im Homeoffice.",
+        "translation": "El compañero trabaja desde casa."
+      }
+    ]
+  },
+  {
+    "word": "Kundin",
+    "translation": "clienta",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Kundinnen",
+    "examples": [
+      {
+        "sentence": "Die Kundin hat eine Frage.",
+        "translation": "La clienta tiene una pregunta."
+      },
+      {
+        "sentence": "Ich helfe der Kundin.",
+        "translation": "Ayudo a la clienta."
+      },
+      {
+        "sentence": "Die Kundin ist zufrieden.",
+        "translation": "La clienta está satisfecha."
+      }
+    ]
+  },
+  {
+    "word": "Computer",
+    "translation": "ordenador",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Computer",
+    "examples": [
+      {
+        "sentence": "Ich arbeite am Computer.",
+        "translation": "Trabajo con el ordenador."
+      },
+      {
+        "sentence": "Der Computer ist neu.",
+        "translation": "El ordenador es nuevo."
+      },
+      {
+        "sentence": "Mein Computer funktioniert nicht.",
+        "translation": "Mi ordenador no funciona."
+      }
+    ]
+  },
+  {
+    "word": "Termin",
+    "translation": "cita",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Termine",
+    "examples": [
+      {
+        "sentence": "Ich habe morgen einen Termin.",
+        "translation": "Tengo una cita mañana."
+      },
+      {
+        "sentence": "Der Termin beginnt um neun Uhr.",
+        "translation": "La cita comienza a las nueve."
+      },
+      {
+        "sentence": "Wir verschieben den Termin.",
+        "translation": "Aplazamos la cita."
+      }
+    ]
+  },
+  {
+    "word": "Besprechung",
+    "translation": "reunión",
+    "type": "noun",
+    "categories": ["beruf"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Besprechungen",
+    "examples": [
+      {
+        "sentence": "Die Besprechung dauert eine Stunde.",
+        "translation": "La reunión dura una hora."
+      },
+      {
+        "sentence": "Wir haben heute eine Besprechung.",
+        "translation": "Tenemos una reunión hoy."
+      },
+      {
+        "sentence": "Die Besprechung beginnt pünktlich.",
+        "translation": "La reunión empieza puntualmente."
+      }
+    ]
+  },
+    
+
+
+  
+  {
+    "word": "Wasser",
+    "translation": "agua",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "n",
+    "article": "das",
+    "plural": null,
+    "examples": [
+      {
+        "sentence": "Ich trinke jeden Tag viel Wasser.",
+        "translation": "Bebo mucha agua todos los días."
+      },
+      {
+        "sentence": "Das Wasser ist kalt.",
+        "translation": "El agua está fría."
+      },
+      {
+        "sentence": "Kann ich bitte ein Glas Wasser bekommen?",
+        "translation": "¿Puedo recibir un vaso de agua, por favor?"
+      }
+    ]
+  },
+  {
+    "word": "Kaffee",
+    "translation": "café",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Kaffees",
+    "examples": [
+      {
+        "sentence": "Ich trinke morgens Kaffee.",
+        "translation": "Tomo café por la mañana."
+      },
+      {
+        "sentence": "Der Kaffee ist noch heiß.",
+        "translation": "El café todavía está caliente."
+      },
+      {
+        "sentence": "Möchtest du einen Kaffee?",
+        "translation": "¿Quieres un café?"
+      }
+    ]
+  },
+  {
+    "word": "Brot",
+    "translation": "pan",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Brote",
+    "examples": [
+      {
+        "sentence": "Ich esse Brot zum Frühstück.",
+        "translation": "Como pan para desayunar."
+      },
+      {
+        "sentence": "Das Brot ist frisch.",
+        "translation": "El pan está fresco."
+      },
+      {
+        "sentence": "Wir kaufen Brot in der Bäckerei.",
+        "translation": "Compramos pan en la panadería."
+      }
+    ]
+  },
+  {
+    "word": "Milch",
+    "translation": "leche",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "f",
+    "article": "die",
+    "plural": null,
+    "examples": [
+      {
+        "sentence": "Die Milch steht im Kühlschrank.",
+        "translation": "La leche está en el frigorífico."
+      },
+      {
+        "sentence": "Ich trinke Kaffee mit Milch.",
+        "translation": "Tomo café con leche."
+      },
+      {
+        "sentence": "Wir brauchen neue Milch.",
+        "translation": "Necesitamos leche nueva."
+      }
+    ]
+  },
+  {
+    "word": "Apfel",
+    "translation": "manzana",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Äpfel",
+    "examples": [
+      {
+        "sentence": "Der Apfel schmeckt gut.",
+        "translation": "La manzana sabe bien."
+      },
+      {
+        "sentence": "Ich esse jeden Tag einen Apfel.",
+        "translation": "Como una manzana cada día."
+      },
+      {
+        "sentence": "Die Äpfel sind sehr frisch.",
+        "translation": "Las manzanas están muy frescas."
+      }
+    ]
+  },
+  {
+    "word": "Restaurant",
+    "translation": "restaurante",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Restaurants",
+    "examples": [
+      {
+        "sentence": "Wir gehen heute ins Restaurant.",
+        "translation": "Hoy vamos al restaurante."
+      },
+      {
+        "sentence": "Das Restaurant ist voll.",
+        "translation": "El restaurante está lleno."
+      },
+      {
+        "sentence": "Im Restaurant esse ich Pizza.",
+        "translation": "En el restaurante como pizza."
+      }
+    ]
+  },
+  {
+    "word": "Frühstück",
+    "translation": "desayuno",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Frühstücke",
+    "examples": [
+      {
+        "sentence": "Das Frühstück ist um sieben Uhr.",
+        "translation": "El desayuno es a las siete."
+      },
+      {
+        "sentence": "Ich esse Frühstück mit meiner Familie.",
+        "translation": "Desayuno con mi familia."
+      },
+      {
+        "sentence": "Heute ist das Frühstück besonders gut.",
+        "translation": "Hoy el desayuno está especialmente bueno."
+      }
+    ]
+  },
+  {
+    "word": "Mittagessen",
+    "translation": "almuerzo",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Mittagessen",
+    "examples": [
+      {
+        "sentence": "Um zwölf Uhr esse ich Mittagessen.",
+        "translation": "A las doce almuerzo."
+      },
+      {
+        "sentence": "Das Mittagessen war lecker.",
+        "translation": "El almuerzo estuvo delicioso."
+      },
+      {
+        "sentence": "Wir essen gemeinsam Mittagessen.",
+        "translation": "Almorzamos juntos."
+      }
+    ]
+  },
+  {
+    "word": "Abendessen",
+    "translation": "cena",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Abendessen",
+    "examples": [
+      {
+        "sentence": "Heute koche ich das Abendessen.",
+        "translation": "Hoy preparo la cena."
+      },
+      {
+        "sentence": "Das Abendessen ist fertig.",
+        "translation": "La cena está lista."
+      },
+      {
+        "sentence": "Wir essen Abendessen um acht Uhr.",
+        "translation": "Cenamos a las ocho."
+      }
+    ]
+  },
+  {
+    "word": "Rechnung",
+    "translation": "cuenta",
+    "type": "noun",
+    "categories": ["essen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Rechnungen",
+    "examples": [
+      {
+        "sentence": "Kann ich die Rechnung bekommen?",
+        "translation": "¿Me puede traer la cuenta?"
+      },
+      {
+        "sentence": "Die Rechnung ist nicht hoch.",
+        "translation": "La cuenta no es alta."
+      },
+      {
+        "sentence": "Ich bezahle die Rechnung mit Karte.",
+        "translation": "Pago la cuenta con tarjeta."
+      }
+    ]
+  },
+
+
+
+
+
+
+  
   {
     "word": "arbeiten",
     "translation": "trabajar",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich arbeiten.",
-        "translation": "Ejemplo."
+        "sentence": "Ich arbeite in einem Büro.",
+        "translation": "Trabajo en una oficina."
       },
       {
-        "sentence": "Wir arbeiten.",
-        "translation": "Ejemplo."
-      }
-    ]
-  },
-  {
-    "word": "sprechen",
-    "translation": "hablar",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
-    "examples": [
-      {
-        "sentence": "Ich sprechen.",
-        "translation": "Ejemplo."
+        "sentence": "Wir arbeiten von Montag bis Freitag.",
+        "translation": "Trabajamos de lunes a viernes."
       },
       {
-        "sentence": "Wir sprechen.",
-        "translation": "Ejemplo."
-      }
-    ]
-  },
-  {
-    "word": "essen",
-    "translation": "comer",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
-    "examples": [
-      {
-        "sentence": "Ich essen.",
-        "translation": "Ejemplo."
-      },
-      {
-        "sentence": "Wir essen.",
-        "translation": "Ejemplo."
-      }
-    ]
-  },
-  {
-    "word": "trinken",
-    "translation": "beber",
-    "type": "verb",
-    "categories": [
-      "verben"
-    ],
-    "examples": [
-      {
-        "sentence": "Ich trinken.",
-        "translation": "Ejemplo."
-      },
-      {
-        "sentence": "Wir trinken.",
-        "translation": "Ejemplo."
+        "sentence": "Mein Vater arbeitet sehr viel.",
+        "translation": "Mi padre trabaja mucho."
       }
     ]
   },
@@ -484,395 +1197,574 @@
     "word": "wohnen",
     "translation": "vivir",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich wohnen.",
-        "translation": "Ejemplo."
+        "sentence": "Ich wohne in Deutschland.",
+        "translation": "Vivo en Alemania."
       },
       {
-        "sentence": "Wir wohnen.",
-        "translation": "Ejemplo."
+        "sentence": "Wo wohnst du?",
+        "translation": "¿Dónde vives?"
+      },
+      {
+        "sentence": "Wir wohnen in einer kleinen Wohnung.",
+        "translation": "Vivimos en un apartamento pequeño."
       }
     ]
   },
   {
-    "word": "sehen",
-    "translation": "ver",
+    "word": "lernen",
+    "translation": "aprender",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich sehen.",
-        "translation": "Ejemplo."
+        "sentence": "Ich lerne Deutsch.",
+        "translation": "Aprendo alemán."
       },
       {
-        "sentence": "Wir sehen.",
-        "translation": "Ejemplo."
+        "sentence": "Die Kinder lernen in der Schule.",
+        "translation": "Los niños aprenden en la escuela."
+      },
+      {
+        "sentence": "Wir lernen jeden Tag neue Wörter.",
+        "translation": "Aprendemos palabras nuevas cada día."
       }
     ]
   },
   {
-    "word": "geben",
-    "translation": "dar",
+    "word": "sprechen",
+    "translation": "hablar",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich geben.",
-        "translation": "Ejemplo."
+        "sentence": "Ich spreche ein wenig Spanisch.",
+        "translation": "Hablo un poco de español."
       },
       {
-        "sentence": "Wir geben.",
-        "translation": "Ejemplo."
+        "sentence": "Sprichst du Deutsch?",
+        "translation": "¿Hablas alemán?"
+      },
+      {
+        "sentence": "Wir sprechen über die Arbeit.",
+        "translation": "Hablamos sobre el trabajo."
       }
     ]
   },
   {
-    "word": "nehmen",
-    "translation": "tomar",
+    "word": "gehen",
+    "translation": "ir",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich nehmen.",
-        "translation": "Ejemplo."
+        "sentence": "Ich gehe heute zu Fuß.",
+        "translation": "Hoy voy a pie."
       },
       {
-        "sentence": "Wir nehmen.",
-        "translation": "Ejemplo."
+        "sentence": "Wir gehen ins Kino.",
+        "translation": "Vamos al cine."
+      },
+      {
+        "sentence": "Sie geht jeden Morgen zur Arbeit.",
+        "translation": "Ella va al trabajo cada mañana."
       }
     ]
   },
   {
-    "word": "finden",
-    "translation": "encontrar",
+    "word": "kommen",
+    "translation": "venir",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich finden.",
-        "translation": "Ejemplo."
+        "sentence": "Ich komme aus Spanien.",
+        "translation": "Soy de España."
       },
       {
-        "sentence": "Wir finden.",
-        "translation": "Ejemplo."
+        "sentence": "Wann kommst du nach Hause?",
+        "translation": "¿Cuándo vienes a casa?"
+      },
+      {
+        "sentence": "Meine Freunde kommen morgen.",
+        "translation": "Mis amigos vienen mañana."
       }
     ]
   },
   {
-    "word": "brauchen",
-    "translation": "necesitar",
+    "word": "essen",
+    "translation": "comer",
     "type": "verb",
-    "categories": [
-      "verben"
-    ],
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Ich brauchen.",
-        "translation": "Ejemplo."
+        "sentence": "Ich esse gern Pizza.",
+        "translation": "Me gusta comer pizza."
       },
       {
-        "sentence": "Wir brauchen.",
-        "translation": "Ejemplo."
+        "sentence": "Wir essen zusammen zu Mittag.",
+        "translation": "Almorzamos juntos."
+      },
+      {
+        "sentence": "Die Kinder essen Obst.",
+        "translation": "Los niños comen fruta."
       }
     ]
   },
   {
-    "word": "gut",
-    "translation": "bueno",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "trinken",
+    "translation": "beber",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist gut.",
-        "translation": "Eso es así."
+        "sentence": "Ich trinke nur Wasser.",
+        "translation": "Solo bebo agua."
       },
       {
-        "sentence": "Heute bin ich gut.",
-        "translation": "Hoy estoy así."
+        "sentence": "Möchtest du einen Kaffee trinken?",
+        "translation": "¿Quieres tomar un café?"
+      },
+      {
+        "sentence": "Wir trinken Tee am Abend.",
+        "translation": "Tomamos té por la noche."
       }
     ]
   },
   {
-    "word": "schlecht",
-    "translation": "malo",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "kaufen",
+    "translation": "comprar",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist schlecht.",
-        "translation": "Eso es así."
+        "sentence": "Ich kaufe Brot im Supermarkt.",
+        "translation": "Compro pan en el supermercado."
       },
       {
-        "sentence": "Heute bin ich schlecht.",
-        "translation": "Hoy estoy así."
+        "sentence": "Wir kaufen ein neues Auto.",
+        "translation": "Compramos un coche nuevo."
+      },
+      {
+        "sentence": "Sie kauft Obst und Gemüse.",
+        "translation": "Ella compra fruta y verdura."
       }
     ]
   },
   {
-    "word": "groß",
-    "translation": "grande",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "bezahlen",
+    "translation": "pagar",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist groß.",
-        "translation": "Eso es así."
+        "sentence": "Ich bezahle mit Karte.",
+        "translation": "Pago con tarjeta."
       },
       {
-        "sentence": "Heute bin ich groß.",
-        "translation": "Hoy estoy así."
+        "sentence": "Wer bezahlt die Rechnung?",
+        "translation": "¿Quién paga la cuenta?"
+      },
+      {
+        "sentence": "Wir bezahlen an der Kasse.",
+        "translation": "Pagamos en la caja."
       }
     ]
   },
   {
-    "word": "klein",
-    "translation": "pequeño",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "schlafen",
+    "translation": "dormir",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist klein.",
-        "translation": "Eso es así."
+        "sentence": "Ich schlafe acht Stunden.",
+        "translation": "Duermo ocho horas."
       },
       {
-        "sentence": "Heute bin ich klein.",
-        "translation": "Hoy estoy así."
+        "sentence": "Das Kind schläft im Bett.",
+        "translation": "El niño duerme en la cama."
+      },
+      {
+        "sentence": "Am Wochenende schlafen wir länger.",
+        "translation": "Los fines de semana dormimos más."
       }
     ]
   },
   {
-    "word": "neu",
-    "translation": "nuevo",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "lesen",
+    "translation": "leer",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist neu.",
-        "translation": "Eso es así."
+        "sentence": "Ich lese jeden Abend ein Buch.",
+        "translation": "Leo un libro cada noche."
       },
       {
-        "sentence": "Heute bin ich neu.",
-        "translation": "Hoy estoy así."
+        "sentence": "Liest du die Zeitung?",
+        "translation": "¿Lees el periódico?"
+      },
+      {
+        "sentence": "Meine Tochter liest gern.",
+        "translation": "A mi hija le gusta leer."
       }
     ]
   },
   {
-    "word": "alt",
-    "translation": "viejo",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "schreiben",
+    "translation": "escribir",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist alt.",
-        "translation": "Eso es así."
+        "sentence": "Ich schreibe eine E-Mail.",
+        "translation": "Escribo un correo electrónico."
       },
       {
-        "sentence": "Heute bin ich alt.",
-        "translation": "Hoy estoy así."
+        "sentence": "Wir schreiben einen Bericht.",
+        "translation": "Escribimos un informe."
+      },
+      {
+        "sentence": "Kannst du deinen Namen schreiben?",
+        "translation": "¿Puedes escribir tu nombre?"
       }
     ]
   },
   {
-    "word": "schön",
-    "translation": "bonito",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "fragen",
+    "translation": "preguntar",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist schön.",
-        "translation": "Eso es así."
+        "sentence": "Ich frage meinen Lehrer.",
+        "translation": "Pregunto a mi profesor."
       },
       {
-        "sentence": "Heute bin ich schön.",
-        "translation": "Hoy estoy así."
+        "sentence": "Darf ich etwas fragen?",
+        "translation": "¿Puedo preguntar algo?"
+      },
+      {
+        "sentence": "Die Kundin fragt nach dem Preis.",
+        "translation": "La clienta pregunta por el precio."
       }
     ]
   },
   {
-    "word": "wichtig",
-    "translation": "importante",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "helfen",
+    "translation": "ayudar",
+    "type": "verb",
+    "categories": ["verben"],
     "examples": [
       {
-        "sentence": "Das ist wichtig.",
-        "translation": "Eso es así."
+        "sentence": "Ich helfe meiner Mutter.",
+        "translation": "Ayudo a mi madre."
       },
       {
-        "sentence": "Heute bin ich wichtig.",
-        "translation": "Hoy estoy así."
+        "sentence": "Kannst du mir helfen?",
+        "translation": "¿Puedes ayudarme?"
+      },
+      {
+        "sentence": "Wir helfen unseren Freunden.",
+        "translation": "Ayudamos a nuestros amigos."
+      }
+    ]
+  },
+
+
+
+    
+
+  {
+    "word": "Bahnhof",
+    "translation": "estación de tren",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Bahnhöfe",
+    "examples": [
+      {
+        "sentence": "Der Bahnhof ist nicht weit von hier.",
+        "translation": "La estación de tren no está lejos de aquí."
+      },
+      {
+        "sentence": "Ich warte am Bahnhof auf meinen Freund.",
+        "translation": "Espero a mi amigo en la estación."
+      },
+      {
+        "sentence": "Der Zug fährt vom Bahnhof ab.",
+        "translation": "El tren sale de la estación."
       }
     ]
   },
   {
-    "word": "schnell",
-    "translation": "rápido",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "Zug",
+    "translation": "tren",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Züge",
     "examples": [
       {
-        "sentence": "Das ist schnell.",
-        "translation": "Eso es así."
+        "sentence": "Der Zug kommt pünktlich an.",
+        "translation": "El tren llega puntual."
       },
       {
-        "sentence": "Heute bin ich schnell.",
-        "translation": "Hoy estoy así."
+        "sentence": "Ich fahre mit dem Zug nach Berlin.",
+        "translation": "Viajo a Berlín en tren."
+      },
+      {
+        "sentence": "Der Zug ist sehr schnell.",
+        "translation": "El tren es muy rápido."
       }
     ]
   },
   {
-    "word": "langsam",
-    "translation": "lento",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "Bus",
+    "translation": "autobús",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Busse",
     "examples": [
       {
-        "sentence": "Das ist langsam.",
-        "translation": "Eso es así."
+        "sentence": "Der Bus kommt in fünf Minuten.",
+        "translation": "El autobús llega en cinco minutos."
       },
       {
-        "sentence": "Heute bin ich langsam.",
-        "translation": "Hoy estoy así."
+        "sentence": "Ich nehme den Bus zur Arbeit.",
+        "translation": "Tomo el autobús para ir al trabajo."
+      },
+      {
+        "sentence": "Der Bus ist heute voll.",
+        "translation": "Hoy el autobús está lleno."
       }
     ]
   },
   {
-    "word": "müde",
-    "translation": "cansado",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "Auto",
+    "translation": "coche",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Autos",
     "examples": [
       {
-        "sentence": "Das ist müde.",
-        "translation": "Eso es así."
+        "sentence": "Mein Auto ist neu.",
+        "translation": "Mi coche es nuevo."
       },
       {
-        "sentence": "Heute bin ich müde.",
-        "translation": "Hoy estoy así."
+        "sentence": "Wir fahren mit dem Auto in den Urlaub.",
+        "translation": "Vamos de vacaciones en coche."
+      },
+      {
+        "sentence": "Das Auto steht vor dem Haus.",
+        "translation": "El coche está delante de la casa."
       }
     ]
   },
   {
-    "word": "glücklich",
-    "translation": "feliz",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "Flughafen",
+    "translation": "aeropuerto",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "m",
+    "article": "der",
+    "plural": "Flughäfen",
     "examples": [
       {
-        "sentence": "Das ist glücklich.",
-        "translation": "Eso es así."
+        "sentence": "Der Flughafen liegt außerhalb der Stadt.",
+        "translation": "El aeropuerto está fuera de la ciudad."
       },
       {
-        "sentence": "Heute bin ich glücklich.",
-        "translation": "Hoy estoy así."
+        "sentence": "Wir fahren zum Flughafen.",
+        "translation": "Vamos al aeropuerto."
+      },
+      {
+        "sentence": "Am Flughafen sind viele Menschen.",
+        "translation": "Hay mucha gente en el aeropuerto."
       }
     ]
   },
   {
-    "word": "krank",
-    "translation": "enfermo",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "Flugzeug",
+    "translation": "avión",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Flugzeuge",
     "examples": [
       {
-        "sentence": "Das ist krank.",
-        "translation": "Eso es así."
+        "sentence": "Das Flugzeug startet pünktlich.",
+        "translation": "El avión despega puntualmente."
       },
       {
-        "sentence": "Heute bin ich krank.",
-        "translation": "Hoy estoy así."
+        "sentence": "Ich fliege mit dem Flugzeug nach Spanien.",
+        "translation": "Viajo a España en avión."
+      },
+      {
+        "sentence": "Das Flugzeug landet in einer Stunde.",
+        "translation": "El avión aterriza en una hora."
       }
     ]
   },
   {
-    "word": "gesund",
-    "translation": "saludable",
-    "type": "adjective",
-    "categories": [
-      "beschreibung"
-    ],
+    "word": "Ticket",
+    "translation": "billete",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "n",
+    "article": "das",
+    "plural": "Tickets",
     "examples": [
       {
-        "sentence": "Das ist gesund.",
-        "translation": "Eso es así."
+        "sentence": "Ich habe ein Ticket nach München gekauft.",
+        "translation": "He comprado un billete para Múnich."
       },
       {
-        "sentence": "Heute bin ich gesund.",
-        "translation": "Hoy estoy así."
+        "sentence": "Bitte zeigen Sie Ihr Ticket.",
+        "translation": "Por favor, muestre su billete."
+      },
+      {
+        "sentence": "Mein Ticket ist in der Tasche.",
+        "translation": "Mi billete está en el bolso."
       }
     ]
   },
   {
-    "word": "hier",
-    "translation": "aquí",
+    "word": "Reise",
+    "translation": "viaje",
+    "type": "noun",
+    "categories": ["reisen"],
+    "gender": "f",
+    "article": "die",
+    "plural": "Reisen",
+    "examples": [
+      {
+        "sentence": "Die Reise war sehr schön.",
+        "translation": "El viaje fue muy bonito."
+      },
+      {
+        "sentence": "Wir planen eine Reise nach Österreich.",
+        "translation": "Planeamos un viaje a Austria."
+      },
+      {
+        "sentence": "Die Reise dauert eine Woche.",
+        "translation": "El viaje dura una semana."
+      }
+    ]
+  },
+  {
+    "word": "fahren",
+    "translation": "conducir / viajar",
+    "type": "verb",
+    "categories": ["reisen"],
+    "examples": [
+      {
+        "sentence": "Ich fahre jeden Tag zur Arbeit.",
+        "translation": "Voy al trabajo todos los días."
+      },
+      {
+        "sentence": "Wir fahren morgen nach Hamburg.",
+        "translation": "Mañana viajamos a Hamburgo."
+      },
+      {
+        "sentence": "Kannst du Auto fahren?",
+        "translation": "¿Sabes conducir?"
+      }
+    ]
+  },
+  {
+    "word": "ankommen",
+    "translation": "llegar",
+    "type": "verb",
+    "categories": ["reisen"],
+    "examples": [
+      {
+        "sentence": "Der Zug kommt um neun Uhr an.",
+        "translation": "El tren llega a las nueve."
+      },
+      {
+        "sentence": "Wann kommst du in Berlin an?",
+        "translation": "¿Cuándo llegas a Berlín?"
+      },
+      {
+        "sentence": "Wir sind gestern spät angekommen.",
+        "translation": "Llegamos tarde ayer."
+      }
+    ]
+  },
+
+
+
+
+
+  
+  {
+    "word": "heute",
+    "translation": "hoy",
     "type": "adverb",
-    "categories": [
-      "ort"
-    ],
+    "categories": ["zeit"],
     "examples": [
       {
-        "sentence": "Ich bin hier.",
-        "translation": "Ejemplo."
+        "sentence": "Heute arbeite ich von zu Hause.",
+        "translation": "Hoy trabajo desde casa."
       },
       {
-        "sentence": "Wir nutzen hier.",
-        "translation": "Ejemplo."
+        "sentence": "Heute scheint die Sonne.",
+        "translation": "Hoy hace sol."
+      },
+      {
+        "sentence": "Hast du heute Zeit?",
+        "translation": "¿Tienes tiempo hoy?"
       }
     ]
   },
   {
-    "word": "dort",
-    "translation": "allí",
+    "word": "morgen",
+    "translation": "mañana",
     "type": "adverb",
-    "categories": [
-      "ort"
-    ],
+    "categories": ["zeit"],
     "examples": [
       {
-        "sentence": "Ich bin dort.",
-        "translation": "Ejemplo."
+        "sentence": "Morgen fahre ich nach Berlin.",
+        "translation": "Mañana voy a Berlín."
       },
       {
-        "sentence": "Wir nutzen dort.",
-        "translation": "Ejemplo."
+        "sentence": "Wir sehen uns morgen.",
+        "translation": "Nos vemos mañana."
+      },
+      {
+        "sentence": "Morgen habe ich einen Termin.",
+        "translation": "Mañana tengo una cita."
+      }
+    ]
+  },
+  {
+    "word": "gestern",
+    "translation": "ayer",
+    "type": "adverb",
+    "categories": ["zeit"],
+    "examples": [
+      {
+        "sentence": "Gestern war ich im Kino.",
+        "translation": "Ayer fui al cine."
+      },
+      {
+        "sentence": "Gestern hat es geregnet.",
+        "translation": "Ayer llovió."
+      },
+      {
+        "sentence": "Ich habe gestern meine Familie besucht.",
+        "translation": "Ayer visité a mi familia."
       }
     ]
   },
@@ -880,17 +1772,19 @@
     "word": "immer",
     "translation": "siempre",
     "type": "adverb",
-    "categories": [
-      "häufigkeit"
-    ],
+    "categories": ["häufigkeit"],
     "examples": [
       {
-        "sentence": "Ich bin immer.",
-        "translation": "Ejemplo."
+        "sentence": "Ich komme immer pünktlich.",
+        "translation": "Siempre llego puntual."
       },
       {
-        "sentence": "Wir nutzen immer.",
-        "translation": "Ejemplo."
+        "sentence": "Sie trinkt immer Kaffee am Morgen.",
+        "translation": "Ella siempre toma café por la mañana."
+      },
+      {
+        "sentence": "Wir helfen uns immer gegenseitig.",
+        "translation": "Siempre nos ayudamos mutuamente."
       }
     ]
   },
@@ -898,126 +1792,432 @@
     "word": "manchmal",
     "translation": "a veces",
     "type": "adverb",
-    "categories": [
-      "häufigkeit"
-    ],
+    "categories": ["häufigkeit"],
     "examples": [
       {
-        "sentence": "Ich bin manchmal.",
-        "translation": "Ejemplo."
+        "sentence": "Manchmal gehe ich spazieren.",
+        "translation": "A veces salgo a caminar."
       },
       {
-        "sentence": "Wir nutzen manchmal.",
-        "translation": "Ejemplo."
+        "sentence": "Ich esse manchmal Pizza.",
+        "translation": "A veces como pizza."
+      },
+      {
+        "sentence": "Manchmal bin ich sehr müde.",
+        "translation": "A veces estoy muy cansado."
+      }
+    ]
+  },
+
+
+
+
+
+
+    
+  {
+    "word": "groß",
+    "translation": "grande",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Das Haus ist groß.",
+        "translation": "La casa es grande."
+      },
+      {
+        "sentence": "Berlin ist eine große Stadt.",
+        "translation": "Berlín es una ciudad grande."
+      },
+      {
+        "sentence": "Mein Bruder ist größer als ich.",
+        "translation": "Mi hermano es más alto que yo."
       }
     ]
   },
   {
-    "word": "nie",
-    "translation": "nunca",
-    "type": "adverb",
-    "categories": [
-      "häufigkeit"
-    ],
+    "word": "klein",
+    "translation": "pequeño",
+    "type": "adjective",
+    "categories": ["beschreibung"],
     "examples": [
       {
-        "sentence": "Ich bin nie.",
-        "translation": "Ejemplo."
+        "sentence": "Die Wohnung ist klein.",
+        "translation": "El apartamento es pequeño."
       },
       {
-        "sentence": "Wir nutzen nie.",
-        "translation": "Ejemplo."
+        "sentence": "Das Kind ist noch klein.",
+        "translation": "El niño todavía es pequeño."
+      },
+      {
+        "sentence": "Wir wohnen in einem kleinen Dorf.",
+        "translation": "Vivimos en un pueblo pequeño."
       }
     ]
   },
   {
-    "word": "heute",
-    "translation": "hoy",
-    "type": "adverb",
-    "categories": [
-      "zeit"
-    ],
+    "word": "gut",
+    "translation": "bueno",
+    "type": "adjective",
+    "categories": ["beschreibung"],
     "examples": [
       {
-        "sentence": "Ich bin heute.",
-        "translation": "Ejemplo."
+        "sentence": "Das Essen ist gut.",
+        "translation": "La comida está buena."
       },
       {
-        "sentence": "Wir nutzen heute.",
-        "translation": "Ejemplo."
+        "sentence": "Heute habe ich einen guten Tag.",
+        "translation": "Hoy tengo un buen día."
+      },
+      {
+        "sentence": "Sie spricht gut Deutsch.",
+        "translation": "Ella habla bien alemán."
       }
     ]
   },
   {
-    "word": "jetzt",
-    "translation": "ahora",
-    "type": "adverb",
-    "categories": [
-      "zeit"
-    ],
+    "word": "schlecht",
+    "translation": "malo",
+    "type": "adjective",
+    "categories": ["beschreibung"],
     "examples": [
       {
-        "sentence": "Ich bin jetzt.",
-        "translation": "Ejemplo."
+        "sentence": "Das Wetter ist schlecht.",
+        "translation": "Hace mal tiempo."
       },
       {
-        "sentence": "Wir nutzen jetzt.",
-        "translation": "Ejemplo."
+        "sentence": "Ich habe schlecht geschlafen.",
+        "translation": "He dormido mal."
+      },
+      {
+        "sentence": "Die Verbindung ist schlecht.",
+        "translation": "La conexión es mala."
       }
     ]
   },
+  {
+    "word": "neu",
+    "translation": "nuevo",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Mein Auto ist neu.",
+        "translation": "Mi coche es nuevo."
+      },
+      {
+        "sentence": "Wir haben eine neue Wohnung.",
+        "translation": "Tenemos un apartamento nuevo."
+      },
+      {
+        "sentence": "Der Mitarbeiter ist neu in der Firma.",
+        "translation": "El empleado es nuevo en la empresa."
+      }
+    ]
+  },
+  {
+    "word": "alt",
+    "translation": "viejo",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Das Haus ist sehr alt.",
+        "translation": "La casa es muy antigua."
+      },
+      {
+        "sentence": "Mein Großvater ist achtzig Jahre alt.",
+        "translation": "Mi abuelo tiene ochenta años."
+      },
+      {
+        "sentence": "Ich kenne dieses alte Buch.",
+        "translation": "Conozco este libro antiguo."
+      }
+    ]
+  },
+  {
+    "word": "schön",
+    "translation": "bonito",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Das Wetter ist schön.",
+        "translation": "Hace buen tiempo."
+      },
+      {
+        "sentence": "Die Stadt ist sehr schön.",
+        "translation": "La ciudad es muy bonita."
+      },
+      {
+        "sentence": "Wir hatten einen schönen Urlaub.",
+        "translation": "Tuvimos unas vacaciones bonitas."
+      }
+    ]
+  },
+  {
+    "word": "wichtig",
+    "translation": "importante",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Deutsch ist für mich wichtig.",
+        "translation": "El alemán es importante para mí."
+      },
+      {
+        "sentence": "Die Besprechung ist wichtig.",
+        "translation": "La reunión es importante."
+      },
+      {
+        "sentence": "Gesundheit ist sehr wichtig.",
+        "translation": "La salud es muy importante."
+      }
+    ]
+  },
+  {
+    "word": "schnell",
+    "translation": "rápido",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Der Zug ist sehr schnell.",
+        "translation": "El tren es muy rápido."
+      },
+      {
+        "sentence": "Sie lernt schnell Deutsch.",
+        "translation": "Ella aprende alemán rápidamente."
+      },
+      {
+        "sentence": "Kannst du schneller sprechen?",
+        "translation": "¿Puedes hablar más rápido?"
+      }
+    ]
+  },
+  {
+    "word": "langsam",
+    "translation": "lento",
+    "type": "adjective",
+    "categories": ["beschreibung"],
+    "examples": [
+      {
+        "sentence": "Bitte sprich langsam.",
+        "translation": "Por favor, habla despacio."
+      },
+      {
+        "sentence": "Der Bus fährt langsam.",
+        "translation": "El autobús va despacio."
+      },
+      {
+        "sentence": "Ich lerne noch langsam Deutsch.",
+        "translation": "Todavía aprendo alemán lentamente."
+      }
+    ]
+  },
+
+
+ 
   {
     "word": "mit",
     "translation": "con",
-    "type": "adverb",
-    "categories": [
-      "funktion"
-    ],
+    "type": "preposition",
+    "categories": ["grammatik"],
     "examples": [
       {
-        "sentence": "Ich bin mit.",
-        "translation": "Ejemplo."
+        "sentence": "Ich fahre mit dem Bus zur Arbeit.",
+        "translation": "Voy al trabajo en autobús."
       },
       {
-        "sentence": "Wir nutzen mit.",
-        "translation": "Ejemplo."
+        "sentence": "Ich spreche mit meiner Freundin.",
+        "translation": "Hablo con mi amiga."
+      },
+      {
+        "sentence": "Wir essen mit unserer Familie.",
+        "translation": "Comemos con nuestra familia."
       }
     ]
   },
   {
     "word": "ohne",
     "translation": "sin",
-    "type": "adverb",
-    "categories": [
-      "funktion"
-    ],
+    "type": "preposition",
+    "categories": ["grammatik"],
     "examples": [
       {
-        "sentence": "Ich bin ohne.",
-        "translation": "Ejemplo."
+        "sentence": "Ich trinke Kaffee ohne Zucker.",
+        "translation": "Tomo café sin azúcar."
       },
       {
-        "sentence": "Wir nutzen ohne.",
-        "translation": "Ejemplo."
+        "sentence": "Er geht ohne Jacke nach draußen.",
+        "translation": "Él sale sin chaqueta."
+      },
+      {
+        "sentence": "Wir können nicht ohne Hilfe arbeiten.",
+        "translation": "No podemos trabajar sin ayuda."
       }
     ]
   },
   {
     "word": "in",
     "translation": "en",
-    "type": "adverb",
-    "categories": [
-      "funktion"
-    ],
+    "type": "preposition",
+    "categories": ["grammatik"],
     "examples": [
       {
-        "sentence": "Ich bin in.",
-        "translation": "Ejemplo."
+        "sentence": "Ich wohne in Deutschland.",
+        "translation": "Vivo en Alemania."
       },
       {
-        "sentence": "Wir nutzen in.",
-        "translation": "Ejemplo."
+        "sentence": "Das Buch liegt in der Tasche.",
+        "translation": "El libro está en la bolsa."
+      },
+      {
+        "sentence": "Wir arbeiten in einem Büro.",
+        "translation": "Trabajamos en una oficina."
+      }
+    ]
+  },
+  {
+    "word": "auf",
+    "translation": "sobre / encima de",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Das Buch liegt auf dem Tisch.",
+        "translation": "El libro está sobre la mesa."
+      },
+      {
+        "sentence": "Ich wohne auf dem Land.",
+        "translation": "Vivo en el campo."
+      },
+      {
+        "sentence": "Die Tasse steht auf dem Schrank.",
+        "translation": "La taza está encima del armario."
+      }
+    ]
+  },
+  {
+    "word": "unter",
+    "translation": "debajo de",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Die Katze liegt unter dem Tisch.",
+        "translation": "El gato está debajo de la mesa."
+      },
+      {
+        "sentence": "Der Schlüssel liegt unter dem Bett.",
+        "translation": "La llave está debajo de la cama."
+      },
+      {
+        "sentence": "Unter dem Baum sitzt ein Mann.",
+        "translation": "Debajo del árbol está sentado un hombre."
+      }
+    ]
+  },
+  {
+    "word": "vor",
+    "translation": "delante de",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Das Auto steht vor dem Haus.",
+        "translation": "El coche está delante de la casa."
+      },
+      {
+        "sentence": "Ich warte vor dem Bahnhof.",
+        "translation": "Espero delante de la estación."
+      },
+      {
+        "sentence": "Vor dem Büro gibt es einen Parkplatz.",
+        "translation": "Delante de la oficina hay un aparcamiento."
+      }
+    ]
+  },
+  {
+    "word": "nach",
+    "translation": "después de / hacia",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Nach der Arbeit gehe ich nach Hause.",
+        "translation": "Después del trabajo voy a casa."
+      },
+      {
+        "sentence": "Wir fahren nach Berlin.",
+        "translation": "Vamos a Berlín."
+      },
+      {
+        "sentence": "Nach dem Essen trinken wir Kaffee.",
+        "translation": "Después de comer tomamos café."
+      }
+    ]
+  },
+  {
+    "word": "für",
+    "translation": "para",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Dieses Geschenk ist für dich.",
+        "translation": "Este regalo es para ti."
+      },
+      {
+        "sentence": "Ich lerne Deutsch für meinen Beruf.",
+        "translation": "Aprendo alemán para mi profesión."
+      },
+      {
+        "sentence": "Danke für deine Hilfe.",
+        "translation": "Gracias por tu ayuda."
+      }
+    ]
+  },
+  {
+    "word": "von",
+    "translation": "de",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Ich komme von der Arbeit.",
+        "translation": "Vengo del trabajo."
+      },
+      {
+        "sentence": "Das ist ein Geschenk von meiner Mutter.",
+        "translation": "Es un regalo de mi madre."
+      },
+      {
+        "sentence": "Der Zug fährt von Hamburg nach Berlin.",
+        "translation": "El tren va de Hamburgo a Berlín."
+      }
+    ]
+  },
+  {
+    "word": "zu",
+    "translation": "a / hacia",
+    "type": "preposition",
+    "categories": ["grammatik"],
+    "examples": [
+      {
+        "sentence": "Ich gehe zu meinem Arzt.",
+        "translation": "Voy a mi médico."
+      },
+      {
+        "sentence": "Wir fahren zu unseren Freunden.",
+        "translation": "Vamos a casa de nuestros amigos."
+      },
+      {
+        "sentence": "Kannst du bitte zur Tür gehen?",
+        "translation": "¿Puedes ir a la puerta, por favor?"
       }
     ]
   }
+    
+
 ]
