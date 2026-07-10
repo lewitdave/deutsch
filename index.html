@@ -507,16 +507,45 @@ function setVocabCategory(category) {
 function nextVocab() {
 
   closeVerbTable();
+if (verbs.length === 0) {
+return;
+}
+  
+  // Zufallsmodus
+  if (mode === "random") {
 
-  const item = pickVerbItem();
-  currentVerb = item.verb;
-  currentForm = item.form;
+    const item = pickVerbItem();
+
+    currentVerb = item.verb;
+    currentForm = item.form;
+
+  }
+
+  // Einzelverb-Modus
+  else {
+
+    if (!currentVerb) {
+
+      currentVerb =
+        verbs[Math.floor(Math.random() * verbs.length)];
+
+      currentFormIndex = 0;
+    }
+
+    currentForm =
+      currentVerb.forms[currentFormIndex];
+
+  }
 
   document.getElementById("question").textContent =
     `${currentVerb.verb} (${currentVerb.translation})`;
 
   const level = getBox(
-    getItemIdVerb(currentVerb.verb, activeTense, currentForm.person)
+    getItemIdVerb(
+      currentVerb.verb,
+      activeTense,
+      currentForm.person
+    )
   );
 
   document.getElementById("meta").textContent =
@@ -525,6 +554,7 @@ function nextVocab() {
   document.getElementById("answer").value = "";
   document.getElementById("feedback").textContent = "";
   document.getElementById("feedback").className = "";
+
   document.getElementById("answer").focus();
 }
 
@@ -606,8 +636,21 @@ updateBox(id, correct);
 saveProgress();
 
 if (correct) {
+
   feedbackEl.textContent = "✔ Richtig!";
   feedbackEl.className = "correct";
+
+  if (mode === "singleVerb") {
+
+    currentFormIndex++;
+
+    if (currentFormIndex >= currentVerb.forms.length) {
+
+      currentVerb = null;
+      currentFormIndex = 0;
+    }
+  }
+
   setTimeout(nextVocab, 500);
 } else {
   feedbackEl.textContent = `✘ Falsch. Richtig ist: ${currentForm.solution}`;
@@ -722,6 +765,10 @@ if (normalizedUser === normalizedSolution) {
 
 
 function toggleMode() {
+
+  currentVerb = null;
+  currentFormIndex = 0;
+
   if (mode === "singleVerb") {
     mode = "random";
     document.getElementById("modeButton").textContent =
@@ -730,15 +777,10 @@ function toggleMode() {
     mode = "singleVerb";
     document.getElementById("modeButton").textContent =
       "Modus: Ein Verb komplett";
-
-    // Reset für systematischen Modus
-    currentVerb = null;
-    currentFormIndex = 0;
   }
 
-  
-if (verbs.length > 0) {
-  nextVocab();
+  if (verbs.length > 0) {
+    nextVocab();
   }
 }
   
